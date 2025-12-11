@@ -4,6 +4,13 @@ import { ArrowLeft, ArrowUpRight, Calendar, Building2, User } from 'lucide-react
 import { getProjectById, projects } from '@/data/projects';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
 
 const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -178,6 +185,40 @@ const ProjectDetail = () => {
             </div>
           </div>
         </section>
+
+        {/* Image Gallery */}
+        {project.gallery && project.gallery.length > 1 && (
+          <section className="section-padding border-t border-border">
+            <div className="container-custom">
+              <h2 className="font-heading text-2xl font-bold mb-8">Project Gallery</h2>
+              <div className="relative px-12">
+                <Carousel
+                  opts={{
+                    align: "start",
+                    loop: true,
+                  }}
+                  className="w-full"
+                >
+                  <CarouselContent className="-ml-4">
+                    {project.gallery.map((img, index) => (
+                      <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
+                        <div className="aspect-[4/3] overflow-hidden rounded-lg border border-border">
+                          <img
+                            src={img}
+                            alt={`${project.title} - Image ${index + 1}`}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                          />
+                        </div>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious className="left-0" />
+                  <CarouselNext className="right-0" />
+                </Carousel>
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Related Projects */}
         {relatedProjects.length > 0 && (
