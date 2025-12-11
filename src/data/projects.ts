@@ -32,6 +32,9 @@ import fiatImg from '@/assets/projects/fiat.jpg';
 import fiatImg2 from '@/assets/projects/fiat-2.jpg';
 import fiatImg3 from '@/assets/projects/fiat-3.jpg';
 import fiatImg4 from '@/assets/projects/fiat-4.jpg';
+import fiatImg5 from '@/assets/projects/fiat-5.jpg';
+import fiatImg6 from '@/assets/projects/fiat-6.jpg';
+import fiatImg7 from '@/assets/projects/fiat-7.jpg';
 import bajaImg from '@/assets/projects/baja.jpg';
 import bajaImg2 from '@/assets/projects/baja-2.jpg';
 import bajaImg3 from '@/assets/projects/baja-3.jpg';
@@ -284,8 +287,8 @@ Automotive closures are surprisingly complex systems that must balance structura
       'Automotive-grade engineering standards'
     ],
     technologies: ['ANSYS', 'HyperMesh', 'NVH Analysis', 'Structural FEA', 'Automotive Engineering'],
-    image: fiatImg,
-    gallery: [fiatImg, fiatImg2, fiatImg3, fiatImg4],
+    image: fiatImg5,
+    gallery: [fiatImg5, fiatImg, fiatImg2, fiatImg3, fiatImg4, fiatImg6, fiatImg7],
     year: '2014 - 2015',
     company: 'Fiat Chrysler Automobiles',
     role: 'CAE Engineer'
