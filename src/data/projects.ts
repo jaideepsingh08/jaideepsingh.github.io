@@ -234,8 +234,8 @@ The engineering challenge was making something as heavy and complex as furniture
   },
   {
     id: 'autonomous-mobile-robot',
-    title: 'Warehouse Robotics - Butler',
-    shortTitle: 'Warehouse Robotics',
+    title: 'GreyOrange - Butler Robot',
+    shortTitle: 'Butler Robot',
     category: 'professional',
     description: 'Complete mechanical design of autonomous mobile robot platform for warehouse automation.',
     fullDescription: `Led the mechanical design of an autonomous mobile robot (AMR) for warehouse and logistics applications. The robot needed to navigate complex environments, carry significant payloads, and operate reliably for extended periods.
