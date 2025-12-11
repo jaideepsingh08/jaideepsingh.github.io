@@ -240,7 +240,7 @@ The engineering challenge was making something as heavy and complex as furniture
   {
     id: 'autonomous-mobile-robot',
     title: 'GreyOrange - Warehouse Robot M',
-    shortTitle: 'Warehouse Robot M',
+    shortTitle: 'GreyOrange Warehouse Robot M',
     category: 'professional',
     description: 'Complete mechanical design of autonomous mobile robot platform for warehouse automation.',
     fullDescription: `Led the mechanical design of an autonomous mobile robot (AMR) for warehouse and logistics applications. The robot needed to navigate complex environments, carry significant payloads, and operate reliably for extended periods.
@@ -262,7 +262,7 @@ This project required balancing competing requirements: structural rigidity for 
   {
     id: 'butler-xl',
     title: 'GreyOrange - Warehouse Robot XL',
-    shortTitle: 'Warehouse Robot XL',
+    shortTitle: 'GreyOrange Warehouse Robot XL',
     category: 'professional',
     description: 'Heavy-duty autonomous mobile robot designed for larger payloads and industrial applications.',
     fullDescription: `Extended the autonomous mobile robot platform to handle significantly larger payloads for industrial warehouse applications. The BUTLER XL required fundamental rethinking of structural design, drivetrain, and navigation systems to handle the increased scale.
