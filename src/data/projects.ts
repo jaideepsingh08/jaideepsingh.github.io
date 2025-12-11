@@ -12,6 +12,9 @@ import butlerXlImg2 from '@/assets/projects/butler-xl-2.jpg';
 import butlerXlImg3 from '@/assets/projects/butler-xl-3.jpg';
 import butlerXlImg4 from '@/assets/projects/butler-xl-4.jpg';
 import fiatImg from '@/assets/projects/fiat.jpg';
+import fiatImg2 from '@/assets/projects/fiat-2.jpg';
+import fiatImg3 from '@/assets/projects/fiat-3.jpg';
+import fiatImg4 from '@/assets/projects/fiat-4.jpg';
 import bajaImg from '@/assets/projects/baja.jpg';
 import bajaImg2 from '@/assets/projects/baja-2.jpg';
 import bajaImg3 from '@/assets/projects/baja-3.jpg';
@@ -25,10 +28,25 @@ import efficycleImg2 from '@/assets/projects/efficycle-2.jpg';
 import efficycleImg3 from '@/assets/projects/efficycle-3.jpg';
 import efficycleImg4 from '@/assets/projects/efficycle-4.jpg';
 import rcRacingImg from '@/assets/projects/rc-racing.jpg';
+import rcRacingImg2 from '@/assets/projects/rc-racing-2.jpg';
+import rcRacingImg3 from '@/assets/projects/rc-racing-3.jpg';
+import rcRacingImg4 from '@/assets/projects/rc-racing-4.jpg';
 import scooterImg from '@/assets/projects/scooter.jpg';
+import scooterImg2 from '@/assets/projects/scooter-2.jpg';
+import scooterImg3 from '@/assets/projects/scooter-3.jpg';
+import scooterImg4 from '@/assets/projects/scooter-4.jpg';
 import bevAnalysisImg from '@/assets/projects/bev-analysis.jpg';
+import bevAnalysisImg2 from '@/assets/projects/bev-analysis-2.jpg';
+import bevAnalysisImg3 from '@/assets/projects/bev-analysis-3.jpg';
+import bevAnalysisImg4 from '@/assets/projects/bev-analysis-4.jpg';
 import marsImg from '@/assets/projects/mars.jpg';
+import marsImg2 from '@/assets/projects/mars-2.jpg';
+import marsImg3 from '@/assets/projects/mars-3.jpg';
+import marsImg4 from '@/assets/projects/mars-4.jpg';
 import ventilatorImg from '@/assets/projects/ventilator.jpg';
+import ventilatorImg2 from '@/assets/projects/ventilator-2.jpg';
+import ventilatorImg3 from '@/assets/projects/ventilator-3.jpg';
+import ventilatorImg4 from '@/assets/projects/ventilator-4.jpg';
 
 export type ProjectCategory = 'professional' | 'academic' | 'personal';
 
@@ -222,6 +240,7 @@ Automotive closures are surprisingly complex systems that must balance structura
     ],
     technologies: ['ANSYS', 'HyperMesh', 'NVH Analysis', 'Structural FEA', 'Automotive Engineering'],
     image: fiatImg,
+    gallery: [fiatImg, fiatImg2, fiatImg3, fiatImg4],
     year: '2016 - 2017',
     company: 'Fiat Chrysler Automobiles',
     role: 'CAE Engineer'
@@ -306,6 +325,7 @@ RC racing is a proving ground for understanding vehicle dynamics at a manageable
     ],
     technologies: ['RC Design', 'Rapid Prototyping', 'Vehicle Dynamics', 'Performance Tuning', '3D Printing'],
     image: rcRacingImg,
+    gallery: [rcRacingImg, rcRacingImg2, rcRacingImg3, rcRacingImg4],
     year: '2013',
     role: 'Designer & Builder'
   },
@@ -326,6 +346,7 @@ Personal projects like this let me explore ideas without constraints. The goal w
     ],
     technologies: ['Electric Vehicles', 'Battery Systems', 'Mechanical Design', 'Urban Mobility', 'Personal Transport'],
     image: scooterImg,
+    gallery: [scooterImg, scooterImg2, scooterImg3, scooterImg4],
     year: '2015',
     role: 'Personal Project'
   },
@@ -346,6 +367,7 @@ This work combined my interests in electric vehicles with rigorous analytical me
     ],
     technologies: ['MATLAB', 'Battery Modeling', 'Energy Systems', 'Data Analysis', 'Electric Vehicles'],
     image: bevAnalysisImg,
+    gallery: [bevAnalysisImg, bevAnalysisImg2, bevAnalysisImg3, bevAnalysisImg4],
     year: '2016',
     role: 'Research Engineer'
   },
@@ -366,6 +388,7 @@ Projects like this stretch your thinking beyond conventional constraints. When y
     ],
     technologies: ['Space Systems', 'Habitat Design', 'Life Support', 'Structural Engineering', 'Systems Thinking'],
     image: marsImg,
+    gallery: [marsImg, marsImg2, marsImg3, marsImg4],
     year: '2016',
     role: 'Design Lead'
   },
@@ -386,6 +409,7 @@ This project combined mechanical engineering with healthcare impact. The challen
     ],
     technologies: ['Medical Devices', 'Low-Cost Design', 'Pneumatic Systems', 'Healthcare Engineering', 'DFM'],
     image: ventilatorImg,
+    gallery: [ventilatorImg, ventilatorImg2, ventilatorImg3, ventilatorImg4],
     year: '2020',
     role: 'Personal Project'
   }
