@@ -217,8 +217,8 @@ This project combined mechanical engineering with healthcare impact. The challen
   // Original Portfolio Projects
   {
     id: 'bumblebee-spaces',
-    title: 'Bumblebee Spaces Robotic Furniture',
-    shortTitle: 'Robotic Furniture',
+    title: 'Bumblebee Spaces - Robotic Furniture',
+    shortTitle: 'Bumblebee Spaces Robotic Furniture',
     category: 'professional',
     description: 'Designed and developed robotic furniture systems that transform living spaces on demand.',
     fullDescription: `At Bumblebee Spaces, I worked on robotic furniture systems that reimagine how people use space in their homes. These ceiling-mounted systems lower furniture (beds, desks, storage) on demand, effectively doubling usable floor space in urban apartments.
