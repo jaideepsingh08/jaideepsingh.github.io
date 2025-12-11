@@ -28,6 +28,9 @@ import butlerXlImg from '@/assets/projects/butler-xl.jpg';
 import butlerXlImg2 from '@/assets/projects/butler-xl-2.jpg';
 import butlerXlImg3 from '@/assets/projects/butler-xl-3.jpg';
 import butlerXlImg4 from '@/assets/projects/butler-xl-4.jpg';
+import butlerXlImg5 from '@/assets/projects/butler-xl-5.jpg';
+import butlerXlImg6 from '@/assets/projects/butler-xl-6.jpg';
+import butlerXlImg7 from '@/assets/projects/butler-xl-7.jpg';
 import fiatImg from '@/assets/projects/fiat.jpg';
 import fiatImg2 from '@/assets/projects/fiat-2.jpg';
 import fiatImg3 from '@/assets/projects/fiat-3.jpg';
@@ -252,8 +255,8 @@ This project required balancing competing requirements: structural rigidity for 
   },
   {
     id: 'butler-xl',
-    title: 'Warehouse Robotics - Butler XL',
-    shortTitle: 'Butler XL',
+    title: 'GreyOrange - Warehouse Robotics',
+    shortTitle: 'GreyOrange Robotics',
     category: 'professional',
     description: 'Heavy-duty autonomous mobile robot designed for larger payloads and industrial applications.',
     fullDescription: `Extended the autonomous mobile robot platform to handle significantly larger payloads for industrial warehouse applications. The BUTLER XL required fundamental rethinking of structural design, drivetrain, and navigation systems to handle the increased scale.
@@ -266,9 +269,10 @@ The engineering challenge was maintaining the reliability and maneuverability of
       'Advanced thermal and power management'
     ],
     technologies: ['Heavy Robotics', 'Industrial Design', 'Structural Analysis', 'Power Systems', 'Thermal Management'],
-    image: butlerXlImg2,
-    gallery: [butlerXlImg2, butlerXlImg, butlerXlImg3, butlerXlImg4],
+    image: butlerXlImg7,
+    gallery: [butlerXlImg7, butlerXlImg5, butlerXlImg6, butlerXlImg, butlerXlImg2, butlerXlImg3, butlerXlImg4],
     year: '2016 - 2017',
+    company: 'GreyOrange',
     role: 'Senior Mechanical Engineer'
   },
   {
