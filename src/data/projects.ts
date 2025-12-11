@@ -129,7 +129,7 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
     technologies: ['Computer Vision', 'AI/ML', 'Industrial Hardware', 'Manufacturing Systems', 'Quality Control'],
     image: unitxImg,
     gallery: [unitxImg, unitxImg2, unitxImg3, unitxImg4],
-    year: '2022 - 2024',
+    year: '2023 - 2024',
     company: 'UnitX',
     role: 'Director of Engineering'
   },
