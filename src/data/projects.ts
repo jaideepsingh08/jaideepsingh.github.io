@@ -222,7 +222,7 @@ The engineering challenge was making something as heavy and complex as furniture
     technologies: ['Robotics', 'Mechanical Design', 'Consumer Products', 'Safety Systems', 'Embedded Systems'],
     image: bumblebeeImg,
     gallery: [bumblebeeImg, bumblebeeImg2, bumblebeeImg3, bumblebeeImg4],
-    year: '2018 - 2019',
+    year: '2018 - 2020',
     company: 'Bumblebee Spaces',
     role: 'Mechanical Engineer'
   },
