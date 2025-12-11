@@ -1,4 +1,5 @@
 // Import project images
+import unitxLogo from '@/assets/logos/unitx-logo.jpg';
 import bumblebeeImg from '@/assets/projects/bumblebee.jpg';
 import bumblebeeImg2 from '@/assets/projects/bumblebee-2.jpg';
 import bumblebeeImg3 from '@/assets/projects/bumblebee-3.jpg';
@@ -423,7 +424,7 @@ export const companies = [
   },
   {
     name: 'UnitX',
-    logo: '/placeholder.svg',
+    logo: unitxLogo,
     description: 'AI Visual Inspection'
   },
   {
