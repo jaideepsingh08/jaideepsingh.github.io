@@ -65,7 +65,7 @@ const Hero = () => {
 
           {/* Company Logos */}
           <div className="animate-fade-up animation-delay-300">
-            <div className="flex flex-wrap items-center gap-8 md:gap-12">
+            <div className="flex flex-wrap items-center gap-6 md:gap-10">
               {companyLogos.map(company => (
                 <div key={company.name} className={`group ${company.extraSpace ? 'mx-4 md:mx-6' : ''}`}>
                   {company.logo ? (
