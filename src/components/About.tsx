@@ -27,7 +27,7 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I work at the intersection of mechanical, electrical, and software in a range of industries.
+                I work at the intersection of mechanical, electrical, and software engineering in a range of industries.
               </p>
               <p>
                 I've led hardware organizations from founding through Series C: building teams, managing budgets, navigating certifications, and shipping products that work at scale. I care about getting the details right and moving fast.
