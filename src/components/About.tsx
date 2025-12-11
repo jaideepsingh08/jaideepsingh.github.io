@@ -32,9 +32,6 @@ const About = () => {
               <p>
                 I've led hardware organizations from pre-seed through Series C, scaling teams, managing multi-million dollar budgets, and navigating the full journey from prototype to certified, shipping products. I thrive in ambiguity and move fast, building teams and companies from earliest days to scale.
               </p>
-              <p>
-                My track record spans Sensory Labs (Founder, Physical AI), UnitX (AI manufacturing), Mill (consumer hardware, 18 patents), Zipline (autonomous delivery), and GreyOrange Robotics (Warehouse Robotics).
-              </p>
             </div>
           </div>
 
