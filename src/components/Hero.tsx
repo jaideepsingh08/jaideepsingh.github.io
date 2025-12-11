@@ -1,4 +1,4 @@
-import { ArrowDown, Linkedin, Github, Mail, MapPin } from 'lucide-react';
+import { ArrowDown, Linkedin, Mail, MapPin } from 'lucide-react';
 import { companies } from '@/data/projects';
 
 const Hero = () => {
@@ -47,14 +47,6 @@ const Hero = () => {
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="https://github.com/jaideepsingh08"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Github className="w-5 h-5" />
               </a>
               <a
                 href="mailto:jaideepsingh08@gmail.com"
