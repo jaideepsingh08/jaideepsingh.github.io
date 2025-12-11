@@ -100,7 +100,7 @@ export const projects: Project[] = [
   {
     id: 'sensory-labs',
     title: 'Sensory Labs - Tactile Sensing for Physical AI',
-    shortTitle: 'Sensory Labs',
+    shortTitle: 'Sensory Labs Tactile Sensing',
     category: 'professional',
     description: 'Founded company building tactile multimodal sensing hardware and infrastructure for physical AI and industrial robotics applications.',
     fullDescription: `Founded Sensory Labs to build tactile multimodal sensing hardware and infrastructure for physical AI. The vision was to enable robots to perceive and interact with the physical world through advanced touch sensing, similar to how humans use their sense of touch.
@@ -124,7 +124,7 @@ The venture was early to market for physical AI applications. The experience rei
   {
     id: 'unitx',
     title: 'UnitX - AI Visual Inspection Systems',
-    shortTitle: 'UnitX',
+    shortTitle: 'UnitX Visual Inspection',
     category: 'professional',
     description: 'Led hardware engineering for AI-powered visual inspection systems that catch defects humans miss, inspecting billions in products annually.',
     fullDescription: `At UnitX, I led the hardware engineering team building AI-powered visual inspection systems for mission-critical manufacturing. Our systems inspect over $6 billion worth of products annually for companies like GE and Teijin, catching defects that human inspectors miss.
@@ -148,7 +148,7 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
   {
     id: 'mill',
     title: 'Mill - Kitchen Food Recycler',
-    shortTitle: 'Mill',
+    shortTitle: 'Mill Food Recycler',
     category: 'professional',
     description: 'Founding engineer and Head of Systems Engineering. Led hardware architecture from pre-seed through Series C, filed 18 patents, achieved UL/FCC certification.',
     fullDescription: `As a founding engineer at Mill, I led hardware and firmware architecture, development, validation, and production readiness for residential and commercial food waste recyclers from pre-seed through Series C.
@@ -171,8 +171,8 @@ Owned the product reliability program to meet functional, reliability, safety, a
   },
   {
     id: 'zipline',
-    title: 'Zipline - Platform 2 Ground Systems Architecture',
-    shortTitle: 'Zipline',
+    title: 'Zipline - Platform 2 Ground Systems',
+    shortTitle: 'Zipline Ground Systems',
     category: 'professional',
     description: 'Led early architecture exploration for Platform-2 ground systems, Zipline\'s next-gen drone logistics infrastructure.',
     fullDescription: `At Zipline, I was part of the founding leadership team for Platform-2, the next-generation drone logistics system. I led early architecture exploration for ground systems, collaborating with Keenan Wyrobek and top-tier engineers to define the hardware systems architecture.
@@ -195,8 +195,8 @@ I built simulation tools to model system sizing for demand scenarios, throughput
   },
   {
     id: 'low-cost-ventilator',
-    title: 'Design of Low Cost Ventilator',
-    shortTitle: 'Ventilator Design',
+    title: 'Low Cost Ventilator Design',
+    shortTitle: 'Low Cost Ventilator',
     category: 'personal',
     description: 'Designed affordable ventilator system for resource-constrained healthcare settings.',
     fullDescription: `Designed a low-cost ventilator system intended for resource-constrained healthcare settings, particularly in developing countries where access to medical equipment is limited.
@@ -307,8 +307,8 @@ As a CAE Engineer, developed advanced analytical models for closure durability, 
   },
   {
     id: 'sae-baja',
-    title: 'Chassis & Suspension Design: SAE Baja',
-    shortTitle: 'SAE Baja',
+    title: 'SAE Baja - Chassis & Suspension Design',
+    shortTitle: 'SAE Baja Racing',
     category: 'academic',
     description: 'Designed chassis and suspension systems for off-road racing vehicle competing in SAE Baja series.',
     fullDescription: `Led the chassis and suspension design for our university's SAE Baja off-road racing vehicle. The competition challenges student teams to design, build, and race single-seat off-road vehicles that can survive brutal terrain and aggressive driving.
@@ -329,8 +329,8 @@ This was my introduction to real vehicle dynamics and the art of designing for e
   },
   {
     id: 'igc-karting',
-    title: 'International Karting Championship (IGC 2013)',
-    shortTitle: 'IGC Karting',
+    title: 'IGC 2013 - International Karting Championship',
+    shortTitle: 'IGC Karting Championship',
     category: 'academic',
     description: 'Designed and raced kart in International Go-Karting Championship competition.',
     fullDescription: `Designed and built a racing kart for the International Go-Karting Championship, competing against teams from across the country. The competition required building a kart from scratch that could compete on performance, reliability, and innovation.
@@ -351,8 +351,8 @@ Racing teaches engineering lessons you cannot learn in a classroom. When your de
   },
   {
     id: 'efficycle',
-    title: 'Hybrid Tricycle: SAE Efficycle',
-    shortTitle: 'SAE Efficycle',
+    title: 'SAE Efficycle - Hybrid Tricycle',
+    shortTitle: 'SAE Efficycle Hybrid',
     category: 'academic',
     description: 'Designed human-electric hybrid tricycle for SAE North India Efficycle competition.',
     fullDescription: `Developed a human-electric hybrid tricycle for the SAE North India Efficycle competition, which challenges teams to build the most efficient and practical human-powered vehicle with electric assist.
@@ -373,8 +373,8 @@ This project combined my interests in vehicle design and sustainable transportat
   },
   {
     id: 'rc-racing',
-    title: 'RC Racing Prototype for Techfest IIT Bombay',
-    shortTitle: 'RC Racing',
+    title: 'IIT Bombay Techfest - RC Racing Prototype',
+    shortTitle: 'Techfest RC Racing',
     category: 'personal',
     description: 'Built high-performance RC racing prototype for competitive events at IIT Bombay Techfest.',
     fullDescription: `Designed and built a high-performance RC racing prototype for competitive events at IIT Bombay's Techfest, one of Asia's largest science and technology festivals.
@@ -395,7 +395,7 @@ RC racing is a proving ground for understanding vehicle dynamics at a manageable
   },
   {
     id: 'electric-scooter',
-    title: 'Design of an Electric Scooter',
+    title: 'Electric Scooter Design',
     shortTitle: 'Electric Scooter',
     category: 'personal',
     description: 'Personal project designing a practical electric scooter for urban commuting.',
@@ -418,7 +418,7 @@ Personal projects like this let me explore ideas without constraints. The goal w
   {
     id: 'bev-analysis',
     title: 'BEV Energy Consumption & Range Analysis',
-    shortTitle: 'BEV Analysis',
+    shortTitle: 'BEV Range Analysis',
     category: 'academic',
     description: 'Research on battery electric vehicle energy consumption, range estimation, and capacity fade analysis.',
     fullDescription: `Conducted research on battery electric vehicle performance, focusing on energy consumption modeling, range estimation algorithms, and battery capacity fade over time.
@@ -439,8 +439,8 @@ This work combined my interests in electric vehicles with rigorous analytical me
   },
   {
     id: 'mars-urbanization',
-    title: 'Mars Urbanization Challenge',
-    shortTitle: 'Mars Challenge',
+    title: 'NASA - Mars Urbanization Challenge',
+    shortTitle: 'NASA Mars Challenge',
     category: 'personal',
     description: 'Conceptual design for Mars habitat and urbanization systems for NASA-affiliated competition.',
     fullDescription: `Developed conceptual designs for Mars habitat and urbanization systems as part of a NASA-affiliated design competition. The challenge required thinking through all aspects of sustainable human presence on Mars, from structural systems to life support to psychological well-being.
