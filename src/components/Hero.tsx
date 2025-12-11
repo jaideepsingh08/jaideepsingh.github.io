@@ -72,7 +72,7 @@ const Hero = () => {
             {/* Company Logos - clean grid */}
             <div className="animate-fade-up animation-delay-400">
               <p className="text-xs text-muted-foreground uppercase tracking-wider mb-4">Previously at</p>
-              <div className="flex items-center gap-8">
+              <div className="flex flex-wrap items-center gap-6 lg:gap-8">
                 {companyLogos.map(company => (
                   <img 
                     key={company.name}
