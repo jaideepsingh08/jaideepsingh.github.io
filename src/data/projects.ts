@@ -1,5 +1,9 @@
 // Import project images
 import unitxLogo from '@/assets/logos/unitx-logo.jpg';
+import unitxImg from '@/assets/projects/unitx.jpg';
+import unitxImg2 from '@/assets/projects/unitx-2.jpg';
+import unitxImg3 from '@/assets/projects/unitx-3.jpg';
+import unitxImg4 from '@/assets/projects/unitx-4.jpg';
 import bumblebeeImg from '@/assets/projects/bumblebee.jpg';
 import bumblebeeImg2 from '@/assets/projects/bumblebee-2.jpg';
 import bumblebeeImg3 from '@/assets/projects/bumblebee-3.jpg';
@@ -110,7 +114,8 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
       'Designed hardware for 24/7 operation in demanding factory environments'
     ],
     technologies: ['Computer Vision', 'AI/ML', 'Industrial Hardware', 'Manufacturing Systems', 'Quality Control'],
-    image: butlerXlImg,
+    image: unitxImg,
+    gallery: [unitxImg, unitxImg2, unitxImg3, unitxImg4],
     year: '2022 - 2024',
     company: 'UnitX',
     role: 'Hardware Engineering Lead'
