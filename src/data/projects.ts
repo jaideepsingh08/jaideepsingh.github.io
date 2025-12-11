@@ -273,7 +273,7 @@ The engineering challenge was maintaining the reliability and maneuverability of
   },
   {
     id: 'fiat-closures',
-    title: 'CAE & Manufacturing Technology at FCA',
+    title: 'Automotive Design & Manufacturing Technology',
     shortTitle: 'FCA Engineering',
     category: 'professional',
     description: 'CAE durability analysis and manufacturing technology for engine and robotic Body-in-White assembly lines, including Made-in-India Jeep Compass.',
