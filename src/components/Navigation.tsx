@@ -36,7 +36,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="font-heading font-bold text-xl md:text-2xl tracking-tight">
             <span className="text-blue-950">Jaideep</span>
-            <span className="text-muted-foreground font-light">Singh</span>
+            <span className="text-muted-foreground font-light"> Singh</span>
           </Link>
 
           {/* Desktop Navigation */}
