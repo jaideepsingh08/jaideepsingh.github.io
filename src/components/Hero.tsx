@@ -21,7 +21,6 @@ const Hero = () => {
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
               Jaideep Singh
-              <span className="block text-muted-foreground font-light">Chavan</span>
             </h1>
           </div>
 
