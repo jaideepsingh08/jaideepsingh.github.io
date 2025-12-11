@@ -19,7 +19,8 @@ const ProjectsGrid = () => {
     label: 'Personal',
     value: 'personal'
   }];
-  const filteredProjects = activeFilter === 'all' ? projects : projects.filter(p => p.category === activeFilter);
+  const visibleProjects = projects.filter(p => !p.hidden);
+  const filteredProjects = activeFilter === 'all' ? visibleProjects : visibleProjects.filter(p => p.category === activeFilter);
   return <section id="work" className="section-padding bg-stone-100 text-blue-900">
       <div className="container-custom">
         {/* Section Header */}
