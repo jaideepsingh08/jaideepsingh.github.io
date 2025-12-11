@@ -35,12 +35,12 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="font-heading font-bold text-xl md:text-2xl tracking-tight">
-            <span className="text-blue-950">Jaideep</span>
-            <span className="text-muted-foreground font-light"> Singh</span>
+            <span className="text-foreground">Jaideep</span>
+            <span className="text-muted-foreground font-light">Singh</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 text-blue-950">
+          <div className="hidden md:flex items-center gap-8 text-blue-950 bg-stone-200">
             {navLinks.map(link => <a key={link.name} href={link.path} className="nav-link text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
                 {link.name}
               </a>)}
