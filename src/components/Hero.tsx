@@ -30,12 +30,12 @@ const Hero = () => {
         <div className="max-w-4xl">
           {/* Name and Title */}
           <div className="animate-fade-up">
-            <p className="text-primary font-medium mb-4 tracking-wide text-sm md:text-base">
-              Building in Hardware, Robotics and Manufacturing
-            </p>
-            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-4">
               Jaideep Singh
             </h1>
+            <p className="text-primary font-medium mb-6 tracking-wide text-sm md:text-base">
+              Building in Hardware, Robotics and Manufacturing
+            </p>
           </div>
 
           {/* Description */}
