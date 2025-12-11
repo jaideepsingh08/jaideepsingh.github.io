@@ -17,7 +17,7 @@ const ProjectCard = ({
   return <Link to={`/project/${project.id}`} className="group block" style={{
     animationDelay: `${index * 100}ms`
   }}>
-      <article className="relative bg-card border border-border rounded-lg overflow-hidden card-hover h-full">
+      <article className="relative border border-border rounded-lg overflow-hidden card-hover h-full bg-stone-200">
         {/* Image */}
         <div className="aspect-[4/3] bg-secondary overflow-hidden">
           <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
