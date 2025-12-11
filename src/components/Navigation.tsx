@@ -40,7 +40,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8 text-blue-950 bg-stone-200">
+          <div className="hidden md:flex items-center gap-8 bg-stone-200 text-blue-950">
             {navLinks.map(link => <a key={link.name} href={link.path} className="nav-link text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
                 {link.name}
               </a>)}
