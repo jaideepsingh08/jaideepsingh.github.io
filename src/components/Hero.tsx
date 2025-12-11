@@ -8,12 +8,12 @@ import millLogo from '@/assets/logos/mill-logo.png';
 
 // Company logos data
 const companyLogos = [
-  { name: 'Mill', logo: millLogo, className: '' },
-  { name: 'Zipline', logo: ziplineLogo, className: '' },
-  { name: 'UnitX', logo: unitxLogo, className: 'scale-[2]' },
-  { name: 'Fiat', logo: fiatLogo, className: '' },
-  { name: 'GreyOrange', logo: greyorangeLogo, className: '' },
-  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, className: '' },
+  { name: 'Mill', logo: millLogo, className: '', extraSpace: false },
+  { name: 'Zipline', logo: ziplineLogo, className: '', extraSpace: false },
+  { name: 'UnitX', logo: unitxLogo, className: 'scale-[2]', extraSpace: true },
+  { name: 'Fiat', logo: fiatLogo, className: '', extraSpace: false },
+  { name: 'GreyOrange', logo: greyorangeLogo, className: '', extraSpace: false },
+  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, className: '', extraSpace: false },
 ];
 
 const Hero = () => {
@@ -65,9 +65,9 @@ const Hero = () => {
 
           {/* Company Logos */}
           <div className="animate-fade-up animation-delay-300">
-            <div className="flex flex-wrap items-center gap-6 md:gap-10">
+            <div className="flex flex-wrap items-center gap-8 md:gap-12">
               {companyLogos.map(company => (
-                <div key={company.name} className="group">
+                <div key={company.name} className={`group ${company.extraSpace ? 'mx-4 md:mx-6' : ''}`}>
                   {company.logo ? (
                     <img 
                       src={company.logo} 
