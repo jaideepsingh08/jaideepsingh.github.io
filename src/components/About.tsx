@@ -3,15 +3,15 @@ const About = () => {
   const strengths = [{
     icon: Wrench,
     title: 'Systems Architecture',
-    description: 'Designing end-to-end hardware systems—mechanical, electrical, firmware—that work reliably at scale.'
+    description: 'Designing end-to-end hardware systems (mechanical, electrical, firmware) that work reliably at scale.'
   }, {
     icon: Lightbulb,
     title: 'Hardware Leadership',
-    description: 'Building and scaling cross-functional teams from 0→1 and 1→N. Hiring, culture, and execution.'
+    description: 'Building and scaling cross-functional teams from 0 to 1 and 1 to N. Hiring, culture, and execution.'
   }, {
     icon: Users,
     title: 'Ship & Certify',
-    description: 'Taking products from prototype to production—UL/FCC certification, manufacturing ramp, and market launch.'
+    description: 'Taking products from prototype to production. UL/FCC certification, manufacturing ramp, and market launch.'
   }, {
     icon: Rocket,
     title: 'Founder DNA',
@@ -23,18 +23,18 @@ const About = () => {
           {/* Left - Story */}
           <div>
             <h2 className="font-heading text-3xl md:text-4xl font-bold mb-6">
-              Building Hardware That Ships
+              About
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm a hardware executive with deep technical roots—graduate education in Physics, 
+                I'm a hardware builder with deep technical roots. Graduate education in Physics, 
                 Mechanical Engineering, and Hybrid Electric Vehicles. I build companies at 
                 the intersection of mechanical, electrical, and software systems.
               </p>
               <p>
                 I've led hardware organizations from pre-seed through Series C, scaling teams, 
-                managing $M+ budgets, and navigating the full journey from prototype to certified, 
-                shipping products. I thrive in ambiguity and move fast without breaking things.
+                managing multi-million dollar budgets, and navigating the full journey from prototype 
+                to certified, shipping products. I thrive in ambiguity and move fast without breaking things.
               </p>
               <p>
                 My track record spans Zipline (autonomous delivery), Mill (consumer hardware, 18 patents), 

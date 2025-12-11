@@ -31,7 +31,7 @@ const Hero = () => {
           {/* Name and Title */}
           <div className="animate-fade-up">
             <p className="text-primary font-medium mb-4 tracking-wide text-sm md:text-base">
-              Building hardware that ships
+              Hardware and robotics
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6">
               Jaideep Singh
@@ -43,7 +43,7 @@ const Hero = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 leading-relaxed">
               I build hardware companies from the ground up. Founding engineer through Series C, 
               I've shipped certified products across autonomous delivery, consumer appliances, 
-              industrial robotics, and AI systems—taking ideas from napkin sketch to factory floor.
+              industrial robotics, and AI systems. From napkin sketch to factory floor.
             </p>
           </div>
 
