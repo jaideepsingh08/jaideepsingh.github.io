@@ -177,6 +177,27 @@ I built simulation tools to model system sizing for demand scenarios, throughput
     company: 'Zipline',
     role: 'Product Architect & Engineering Lead'
   },
+  {
+    id: 'low-cost-ventilator',
+    title: 'Design of Low Cost Ventilator',
+    shortTitle: 'Ventilator Design',
+    category: 'personal',
+    description: 'Designed affordable ventilator system for resource-constrained healthcare settings.',
+    fullDescription: `Designed a low-cost ventilator system intended for resource-constrained healthcare settings, particularly in developing countries where access to medical equipment is limited.
+
+This project combined mechanical engineering with healthcare impact. The challenge was achieving medical-grade performance at a fraction of traditional costs, requiring creative approaches to components, manufacturing, and reliability.`,
+    highlights: [
+      'Cost-optimized medical device design',
+      'Designed for resource-constrained settings',
+      'Medical-grade performance requirements',
+      'Focus on manufacturability and reliability'
+    ],
+    technologies: ['Medical Devices', 'Low-Cost Design', 'Pneumatic Systems', 'Healthcare Engineering', 'DFM'],
+    image: ventilatorImg,
+    gallery: [ventilatorImg, ventilatorImg2, ventilatorImg3, ventilatorImg4],
+    year: '2020',
+    role: 'Personal Project'
+  },
   // Original Portfolio Projects
   {
     id: 'bumblebee-spaces',
@@ -410,27 +431,6 @@ Projects like this stretch your thinking beyond conventional constraints. When y
     gallery: [marsImg, marsImg2, marsImg3, marsImg4],
     year: '2016',
     role: 'Design Lead'
-  },
-  {
-    id: 'low-cost-ventilator',
-    title: 'Design of Low Cost Ventilator',
-    shortTitle: 'Ventilator Design',
-    category: 'personal',
-    description: 'Designed affordable ventilator system for resource-constrained healthcare settings.',
-    fullDescription: `Designed a low-cost ventilator system intended for resource-constrained healthcare settings, particularly in developing countries where access to medical equipment is limited.
-
-This project combined mechanical engineering with healthcare impact. The challenge was achieving medical-grade performance at a fraction of traditional costs, requiring creative approaches to components, manufacturing, and reliability.`,
-    highlights: [
-      'Cost-optimized medical device design',
-      'Designed for resource-constrained settings',
-      'Medical-grade performance requirements',
-      'Focus on manufacturability and reliability'
-    ],
-    technologies: ['Medical Devices', 'Low-Cost Design', 'Pneumatic Systems', 'Healthcare Engineering', 'DFM'],
-    image: ventilatorImg,
-    gallery: [ventilatorImg, ventilatorImg2, ventilatorImg3, ventilatorImg4],
-    year: '2020',
-    role: 'Personal Project'
   }
 ];
 
