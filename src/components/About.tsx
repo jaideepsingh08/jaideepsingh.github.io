@@ -15,7 +15,7 @@ const About = () => {
   }, {
     icon: TrendingUp,
     title: 'Founder Experience',
-    description: 'Multiple founding engineer roles. I build the hardware function, not just the hardware.'
+    description: 'Multiple founding engineer roles. I build the engineering functions necessary for product and business success.'
   }];
   return <section id="about" className="section-padding bg-stone-100 text-blue-900">
       <div className="container-custom">
