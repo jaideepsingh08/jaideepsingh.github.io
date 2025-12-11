@@ -3,19 +3,19 @@ const About = () => {
   const strengths = [{
     icon: Layers,
     title: 'Full-Stack Hardware',
-    description: 'Mechanical, electrical, firmware, systems. I go deep across domains, not just one specialty.'
+    description: 'Designing end-to-end hardware systems (mechanical, electrical, firmware) that work reliably at scale.'
   }, {
     icon: Users,
     title: 'Build & Scale Teams',
-    description: 'Hired and grown hardware orgs from zero. I know how to find great people and create high-performing teams.'
+    description: 'Building and scaling cross-functional teams from 0 to 1 and 1 to N. Hiring, culture, and execution.'
   }, {
     icon: Zap,
-    title: 'Startup Speed',
-    description: 'I ship. Fast iteration, smart tradeoffs, no analysis paralysis. Products in users hands, not decks.'
+    title: 'Zero to Production',
+    description: 'Taking products from prototype to production. UL/FCC certification, manufacturing ramp, and market launch.'
   }, {
     icon: TrendingUp,
-    title: 'Business Context',
-    description: 'I understand margins, vendor strategy, and certification timelines. Engineering decisions with business impact.'
+    title: 'Founder Experience',
+    description: 'Multiple founding engineer roles. I build the hardware function, not just the hardware.'
   }];
   return <section id="about" className="section-padding bg-stone-100 text-blue-900">
       <div className="container-custom">
