@@ -273,25 +273,27 @@ The engineering challenge was maintaining the reliability and maneuverability of
   },
   {
     id: 'fiat-closures',
-    title: 'CAE of Automotive Side Closures',
-    shortTitle: 'Automotive CAE',
+    title: 'CAE & Manufacturing Technology at FCA',
+    shortTitle: 'FCA Engineering',
     category: 'professional',
-    description: 'Computer-aided engineering analysis of automotive door systems for a major manufacturer.',
-    fullDescription: `Conducted comprehensive computer-aided engineering analysis of automotive side closure systems (doors) for Fiat Chrysler Automobiles. The work involved structural analysis, NVH optimization, and durability validation using advanced simulation tools.
+    description: 'CAE durability analysis and manufacturing technology for engine and robotic Body-in-White assembly lines, including Made-in-India Jeep Compass.',
+    fullDescription: `Two roles at Fiat Chrysler Automobiles spanning CAE durability analysis and manufacturing technology for vehicle production.
 
-Automotive closures are surprisingly complex systems that must balance structural rigidity, crash performance, sealing, and user experience—all while meeting aggressive weight and cost targets. This project taught me the rigor required for automotive-grade engineering.`,
+As a Manufacturing Technologist, optimized production processes across Engine manufacturing and Body-in-White (BIW) assembly divisions. Implemented a temporary BIW facility achieving 300+ units/day output for Fiat Punto/Linea. Led automation improvements that increased BIW build efficiency from 27% to 65% for the right-hand-drive Jeep Compass and Tata Nexon production lines—a key part of the Made-in-India initiative.
+
+As a CAE Engineer, developed advanced analytical models for closure durability, improving computation time by 40% and accuracy by 12%. Conducted structural analysis, NVH optimization, and durability validation for automotive door systems. Presented findings at SAE World Congress 2016, published in SAE Journal.`,
     highlights: [
-      'Structural and NVH analysis for door systems',
-      'Durability validation through simulation',
-      'Optimization for weight and cost targets',
-      'Automotive-grade engineering standards'
+      'Built robotic BIW assembly lines for Jeep Compass production',
+      'Increased BIW build efficiency from 27% to 65%',
+      'Implemented temporary facility achieving 300+ units/day',
+      'Published durability research at SAE World Congress 2016'
     ],
-    technologies: ['ANSYS', 'HyperMesh', 'NVH Analysis', 'Structural FEA', 'Automotive Engineering'],
+    technologies: ['Manufacturing Engineering', 'BIW Assembly', 'Robotics', 'ANSYS', 'HyperMesh', 'NVH Analysis', 'Process Optimization'],
     image: fiatImg5,
     gallery: [fiatImg5, fiatImg, fiatImg2, fiatImg3, fiatImg4, fiatImg6, fiatImg7],
     year: '2014 - 2015',
     company: 'Fiat Chrysler Automobiles',
-    role: 'CAE Engineer'
+    role: 'Manufacturing Technologist & CAE Engineer'
   },
   {
     id: 'sae-baja',
