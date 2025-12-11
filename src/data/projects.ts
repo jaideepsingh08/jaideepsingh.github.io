@@ -1,6 +1,10 @@
 // Import project images
 import unitxLogo from '@/assets/logos/unitx-logo.jpg';
 import sensoryLabsImg from '@/assets/projects/sensory-labs.png';
+import sensoryLabsImg2 from '@/assets/projects/sensory-labs-2.png';
+import sensoryLabsImg3 from '@/assets/projects/sensory-labs-3.png';
+import sensoryLabsImg4 from '@/assets/projects/sensory-labs-4.png';
+import sensoryLabsImg5 from '@/assets/projects/sensory-labs-5.jpg';
 import unitxImg from '@/assets/projects/unitx.jpg';
 import unitxImg2 from '@/assets/projects/unitx-2.jpg';
 import unitxImg3 from '@/assets/projects/unitx-3.jpg';
@@ -93,6 +97,7 @@ The venture was early to market for physical AI applications. The experience rei
     ],
     technologies: ['Tactile Sensing', 'Physical AI', 'Multimodal Systems', 'Robotics', 'Hardware Prototyping'],
     image: sensoryLabsImg,
+    gallery: [sensoryLabsImg, sensoryLabsImg2, sensoryLabsImg3, sensoryLabsImg4, sensoryLabsImg5],
     year: '2024 - 2025',
     company: 'Sensory Labs',
     role: 'Founder'
