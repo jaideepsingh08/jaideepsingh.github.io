@@ -3,19 +3,19 @@ const About = () => {
   const strengths = [{
     icon: Wrench,
     title: 'Systems Architecture',
-    description: 'Taking complex problems apart and building elegant solutions that integrate mechanical, electrical, and software systems.'
+    description: 'Designing end-to-end hardware systems—mechanical, electrical, firmware—that work reliably at scale.'
   }, {
     icon: Lightbulb,
     title: 'Hardware Leadership',
-    description: 'Building and leading cross-functional ME/EE/FW teams to deliver products from concept through production.'
+    description: 'Building and scaling cross-functional teams from 0→1 and 1→N. Hiring, culture, and execution.'
   }, {
     icon: Users,
-    title: 'Shipping at Scale',
-    description: 'Getting products certified, manufactured, and into users hands—from UL/FCC to factory floor.'
+    title: 'Ship & Certify',
+    description: 'Taking products from prototype to production—UL/FCC certification, manufacturing ramp, and market launch.'
   }, {
     icon: Rocket,
-    title: 'Startup Building',
-    description: 'Founding engineer experience at multiple startups, building hardware teams and product culture from the ground up.'
+    title: 'Founder DNA',
+    description: 'Multiple founding engineer roles. I build the hardware function, not just the hardware.'
   }];
   return <section id="about" className="section-padding bg-stone-100 text-blue-900">
       <div className="container-custom">
@@ -23,24 +23,23 @@ const About = () => {
           {/* Left - Story */}
           <div>
             <h2 className="font-heading text-3xl md:text-4xl font-bold mb-6">
-              About Me
+              Building Hardware That Ships
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I am a product and systems architect with graduate education in Physics, 
-                Mechanical Engineering, and Hybrid Electric Vehicles. I build products at 
-                the intersection of mechanical, electrical, hardware, and software systems.
+                I'm a hardware executive with deep technical roots—graduate education in Physics, 
+                Mechanical Engineering, and Hybrid Electric Vehicles. I build companies at 
+                the intersection of mechanical, electrical, and software systems.
               </p>
               <p>
-                Working with highly ambitious teams solving challenging problems through 
-                robotics and hardware excites me. I have a proven track record of building 
-                successful products from concept through production and certification while 
-                working with diverse cross-functional teams.
+                I've led hardware organizations from pre-seed through Series C, scaling teams, 
+                managing $M+ budgets, and navigating the full journey from prototype to certified, 
+                shipping products. I thrive in ambiguity and move fast without breaking things.
               </p>
               <p>
-                My experience spans autonomous delivery systems at Zipline, consumer hardware 
-                at Mill, AI-powered manufacturing at UnitX, and now physical AI systems at 
-                Sensory Labs. I specialize in bringing complex technology to market.
+                My track record spans Zipline (autonomous delivery), Mill (consumer hardware, 18 patents), 
+                UnitX (AI manufacturing), and founding Sensory Labs (physical AI). I know how to 
+                hire, build culture, and deliver results that matter to the business.
               </p>
             </div>
           </div>
