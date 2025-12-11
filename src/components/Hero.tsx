@@ -35,7 +35,7 @@ const Hero = () => {
               <img 
                 src={headshot} 
                 alt="Jaideep Singh" 
-                className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-2xl object-cover shadow-xl"
+                className="w-48 h-60 md:w-64 md:h-80 lg:w-72 lg:h-[22.5rem] rounded-2xl object-cover object-top shadow-xl"
               />
               <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-black/10" />
             </div>
