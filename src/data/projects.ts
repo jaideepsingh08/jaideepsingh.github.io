@@ -81,6 +81,7 @@ export interface Project {
   year: string;
   company?: string;
   role?: string;
+  hidden?: boolean;
 }
 
 export const projects: Project[] = [
@@ -308,7 +309,8 @@ This was my introduction to real vehicle dynamics and the art of designing for e
     image: bajaImg,
     gallery: [bajaImg, bajaImg2, bajaImg3, bajaImg4],
     year: '2014 - 2015',
-    role: 'Chassis Lead'
+    role: 'Chassis Lead',
+    hidden: true
   },
   {
     id: 'igc-karting',
@@ -329,7 +331,8 @@ Racing teaches engineering lessons you cannot learn in a classroom. When your de
     image: igcImg,
     gallery: [igcImg, igcImg2, igcImg3, igcImg4],
     year: '2013',
-    role: 'Team Lead'
+    role: 'Team Lead',
+    hidden: true
   },
   {
     id: 'efficycle',
@@ -350,7 +353,8 @@ This project combined my interests in vehicle design and sustainable transportat
     image: efficycleImg,
     gallery: [efficycleImg, efficycleImg2, efficycleImg3, efficycleImg4],
     year: '2014',
-    role: 'Design Lead'
+    role: 'Design Lead',
+    hidden: true
   },
   {
     id: 'rc-racing',
@@ -371,7 +375,8 @@ RC racing is a proving ground for understanding vehicle dynamics at a manageable
     image: rcRacingImg,
     gallery: [rcRacingImg, rcRacingImg2, rcRacingImg3, rcRacingImg4],
     year: '2013',
-    role: 'Designer & Builder'
+    role: 'Designer & Builder',
+    hidden: true
   },
   {
     id: 'electric-scooter',
@@ -392,7 +397,8 @@ Personal projects like this let me explore ideas without constraints. The goal w
     image: scooterImg,
     gallery: [scooterImg, scooterImg2, scooterImg3, scooterImg4],
     year: '2015',
-    role: 'Personal Project'
+    role: 'Personal Project',
+    hidden: true
   },
   {
     id: 'bev-analysis',
@@ -413,7 +419,8 @@ This work combined my interests in electric vehicles with rigorous analytical me
     image: bevAnalysisImg,
     gallery: [bevAnalysisImg, bevAnalysisImg2, bevAnalysisImg3, bevAnalysisImg4],
     year: '2016',
-    role: 'Research Engineer'
+    role: 'Research Engineer',
+    hidden: true
   },
   {
     id: 'mars-urbanization',
@@ -434,7 +441,8 @@ Projects like this stretch your thinking beyond conventional constraints. When y
     image: marsImg,
     gallery: [marsImg, marsImg2, marsImg3, marsImg4],
     year: '2016',
-    role: 'Design Lead'
+    role: 'Design Lead',
+    hidden: true
   }
 ];
 
