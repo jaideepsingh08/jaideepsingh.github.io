@@ -1,5 +1,6 @@
 // Import project images
 import unitxLogo from '@/assets/logos/unitx-logo.jpg';
+import sensoryLabsImg from '@/assets/projects/sensory-labs.png';
 import unitxImg from '@/assets/projects/unitx.jpg';
 import unitxImg2 from '@/assets/projects/unitx-2.jpg';
 import unitxImg3 from '@/assets/projects/unitx-3.jpg';
@@ -91,7 +92,7 @@ The venture was early to market for physical AI applications. The experience rei
       'Developed hardware infrastructure for physical AI'
     ],
     technologies: ['Tactile Sensing', 'Physical AI', 'Multimodal Systems', 'Robotics', 'Hardware Prototyping'],
-    image: amrImg,
+    image: sensoryLabsImg,
     year: '2024 - 2025',
     company: 'Sensory Labs',
     role: 'Founder'
