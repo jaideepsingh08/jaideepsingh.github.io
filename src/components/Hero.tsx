@@ -3,11 +3,13 @@ import unitxLogo from '@/assets/logos/unitx-logo.jpg';
 import greyorangeLogo from '@/assets/logos/greyorange-logo.png';
 import fiatLogo from '@/assets/logos/fiat-logo.png';
 import bumblebeeLogo from '@/assets/logos/bumblebee-logo.png';
+import ziplineLogo from '@/assets/logos/zipline-logo.png';
+import millLogo from '@/assets/logos/mill-logo.png';
 
 // Company logos data
 const companyLogos = [
-  { name: 'Mill', logo: null },
-  { name: 'Zipline', logo: null },
+  { name: 'Mill', logo: millLogo },
+  { name: 'Zipline', logo: ziplineLogo },
   { name: 'UnitX', logo: unitxLogo },
   { name: 'Fiat', logo: fiatLogo },
   { name: 'GreyOrange', logo: greyorangeLogo },
@@ -63,9 +65,6 @@ const Hero = () => {
 
           {/* Company Logos */}
           <div className="animate-fade-up animation-delay-300">
-            <p className="text-xs uppercase tracking-wider text-muted-foreground mb-4">
-              Companies I've worked with
-            </p>
             <div className="flex flex-wrap items-center gap-6 md:gap-10">
               {companyLogos.map(company => (
                 <div key={company.name} className="group">
