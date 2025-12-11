@@ -7,8 +7,8 @@ const Footer = () => {
             Let's Build Something
           </h2>
           <p className="text-muted-foreground mb-8">
-            I am always interested in discussing new opportunities, challenging problems, 
-            or just connecting with fellow builders.
+            I love digging into hard problems, whiteboarding wild ideas, 
+            and connecting with fellow builders. Let's nerd out.
           </p>
 
           {/* Contact Link */}
