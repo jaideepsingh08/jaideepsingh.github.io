@@ -1,21 +1,21 @@
-import { Wrench, Lightbulb, Users, Rocket } from 'lucide-react';
+import { Layers, Users, Zap, TrendingUp } from 'lucide-react';
 const About = () => {
   const strengths = [{
-    icon: Wrench,
-    title: 'Systems Architecture',
-    description: 'Designing end-to-end hardware systems (mechanical, electrical, firmware) that work reliably at scale.'
-  }, {
-    icon: Lightbulb,
-    title: 'Hardware Leadership',
-    description: 'Building and scaling cross-functional teams from 0 to 1 and 1 to N. Hiring, culture, and execution.'
+    icon: Layers,
+    title: 'Full-Stack Hardware',
+    description: 'Mechanical, electrical, firmware, systems. I go deep across domains, not just one specialty.'
   }, {
     icon: Users,
-    title: 'Ship & Certify',
-    description: 'Taking products from prototype to production. UL/FCC certification, manufacturing ramp, and market launch.'
+    title: 'Build & Scale Teams',
+    description: 'Hired and grown hardware orgs from zero. I know how to find great people and create high-performing teams.'
   }, {
-    icon: Rocket,
-    title: 'Founder DNA',
-    description: 'Multiple founding engineer roles. I build the hardware function, not just the hardware.'
+    icon: Zap,
+    title: 'Startup Speed',
+    description: 'I ship. Fast iteration, smart tradeoffs, no analysis paralysis. Products in users hands, not decks.'
+  }, {
+    icon: TrendingUp,
+    title: 'Business Context',
+    description: 'I understand margins, vendor strategy, and certification timelines. Engineering decisions with business impact.'
   }];
   return <section id="about" className="section-padding bg-stone-100 text-blue-900">
       <div className="container-custom">
