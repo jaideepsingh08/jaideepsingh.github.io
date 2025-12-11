@@ -61,9 +61,9 @@ const About = () => {
 
         {/* Skills */}
         <div className="mt-16 pt-16 border-t border-border">
-          <h3 className="font-heading font-semibold text-xl mb-6">Technical Expertise</h3>
+          <h3 className="font-heading font-semibold text-xl mb-6">Skills & Expertise</h3>
           <div className="flex flex-wrap gap-3">
-            {['Robotics', 'Mechanical Design', 'Systems Architecture', 'SolidWorks', 'ANSYS', 'DFM/DFA', 'Product Certification', 'UL/FCC', 'CE', 'Hardware Integration', 'Embedded Systems', 'Manufacturing', 'Cross-functional Leadership', 'Startup Building'].map(skill => <span key={skill} className="px-4 py-2 bg-secondary text-secondary-foreground text-sm rounded-full">
+            {['Technical Strategy', 'Team Scaling', 'Roadmap Planning', 'Stakeholder Management', 'Budget & Vendor Management', 'Robotics', 'Systems Architecture', 'Hardware Integration', 'Embedded Systems', 'Product Certification', 'Manufacturing', 'Cross-functional Leadership', 'Startup Building'].map(skill => <span key={skill} className="px-4 py-2 bg-secondary text-secondary-foreground text-sm rounded-full">
                 {skill}
               </span>)}
           </div>

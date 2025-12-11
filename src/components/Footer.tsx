@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, MapPin } from 'lucide-react';
+import { Mail, Linkedin, MapPin } from 'lucide-react';
 const Footer = () => {
   return <footer id="contact" className="section-padding border-t border-border bg-stone-100 text-blue-950">
       <div className="container-custom">
@@ -22,10 +22,6 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/jaideepsingh08/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="w-5 h-5" />
               <span className="text-sm">LinkedIn</span>
-            </a>
-            <a href="https://github.com/jaideepsingh08" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
-              <Github className="w-5 h-5" />
-              <span className="text-sm">GitHub</span>
             </a>
           </div>
 
