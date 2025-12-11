@@ -7,14 +7,14 @@ import ziplineLogo from '@/assets/logos/zipline-logo.png';
 import millLogo from '@/assets/logos/mill-logo.png';
 import headshot from '@/assets/jaideep-headshot.jpeg';
 
-// Company logos data - normalized sizing
+// Company logos data - with size adjustments for smaller logos
 const companyLogos = [
-  { name: 'Mill', logo: millLogo },
-  { name: 'Zipline', logo: ziplineLogo },
-  { name: 'UnitX', logo: unitxLogo },
-  { name: 'Fiat', logo: fiatLogo },
-  { name: 'GreyOrange', logo: greyorangeLogo },
-  { name: 'Bumblebee Spaces', logo: bumblebeeLogo },
+  { name: 'Mill', logo: millLogo, scale: 1 },
+  { name: 'Zipline', logo: ziplineLogo, scale: 1 },
+  { name: 'UnitX', logo: unitxLogo, scale: 1.5 },
+  { name: 'Fiat', logo: fiatLogo, scale: 1 },
+  { name: 'GreyOrange', logo: greyorangeLogo, scale: 1 },
+  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, scale: 1.5 },
 ];
 
 const Hero = () => {
@@ -72,13 +72,14 @@ const Hero = () => {
             {/* Company Logos - clean grid */}
             <div className="animate-fade-up animation-delay-400">
               <p className="text-xs text-muted-foreground uppercase tracking-wider mb-4">Previously at</p>
-              <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 items-center">
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 items-center">
                 {companyLogos.map(company => (
                   <img 
                     key={company.name}
                     src={company.logo} 
-                    alt={company.name} 
-                    className="h-6 md:h-7 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                    alt={company.name}
+                    style={{ transform: `scale(${company.scale})` }}
+                    className="h-8 md:h-9 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
                   />
                 ))}
               </div>
