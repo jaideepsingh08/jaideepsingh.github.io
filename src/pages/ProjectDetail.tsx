@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import { ArrowLeft, ArrowUpRight, Calendar, Building2, User } from 'lucide-react';
 import { getProjectById, projects } from '@/data/projects';
 import Navigation from '@/components/Navigation';
@@ -7,6 +8,11 @@ import Footer from '@/components/Footer';
 const ProjectDetail = () => {
   const { id } = useParams<{ id: string }>();
   const project = id ? getProjectById(id) : undefined;
+
+  // Scroll to top on page load
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   if (!project) {
     return (
@@ -94,13 +100,13 @@ const ProjectDetail = () => {
                 </div>
               </div>
 
-              {/* Right - Image placeholder */}
+              {/* Right - Image */}
               <div className="aspect-[4/3] bg-card border border-border rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-                  <span className="text-8xl font-heading font-bold text-muted-foreground/10">
-                    {project.shortTitle.charAt(0)}
-                  </span>
-                </div>
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
