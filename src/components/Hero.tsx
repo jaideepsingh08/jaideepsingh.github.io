@@ -7,14 +7,14 @@ import ziplineLogo from '@/assets/logos/zipline-logo.png';
 import millLogo from '@/assets/logos/mill-logo.png';
 import headshot from '@/assets/jaideep-headshot.jpeg';
 
-// Company logos data - with size adjustments for smaller logos
+// Company logos data - with height adjustments for smaller logos
 const companyLogos = [
-  { name: 'Mill', logo: millLogo, scale: 1 },
-  { name: 'Zipline', logo: ziplineLogo, scale: 1 },
-  { name: 'UnitX', logo: unitxLogo, scale: 1.5 },
-  { name: 'Fiat', logo: fiatLogo, scale: 1 },
-  { name: 'GreyOrange', logo: greyorangeLogo, scale: 1 },
-  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, scale: 1.5 },
+  { name: 'Mill', logo: millLogo, height: 'h-8' },
+  { name: 'Zipline', logo: ziplineLogo, height: 'h-8' },
+  { name: 'UnitX', logo: unitxLogo, height: 'h-12' },
+  { name: 'Fiat', logo: fiatLogo, height: 'h-8' },
+  { name: 'GreyOrange', logo: greyorangeLogo, height: 'h-8' },
+  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, height: 'h-12' },
 ];
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
 
       <div className="container-custom relative z-10">
         {/* Main content - two column layout */}
-        <div className="grid lg:grid-cols-[1fr,auto] gap-12 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-[1fr,auto] gap-10 lg:gap-12 items-center">
           {/* Text Content */}
           <div className="order-2 lg:order-1">
             {/* Name */}
@@ -72,15 +72,15 @@ const Hero = () => {
             {/* Company Logos - clean grid */}
             <div className="animate-fade-up animation-delay-400">
               <p className="text-xs text-muted-foreground uppercase tracking-wider mb-4">Previously at</p>
-              <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 items-center">
+              <div className="flex flex-wrap items-center gap-6">
                 {companyLogos.map(company => (
-                  <img 
-                    key={company.name}
-                    src={company.logo} 
-                    alt={company.name}
-                    style={{ transform: `scale(${company.scale})` }}
-                    className="h-8 md:h-9 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
-                  />
+                  <div key={company.name} className="w-16 flex items-center justify-center">
+                    <img 
+                      src={company.logo} 
+                      alt={company.name}
+                      className={`${company.height} w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100`}
+                    />
+                  </div>
                 ))}
               </div>
             </div>
