@@ -8,12 +8,12 @@ import millLogo from '@/assets/logos/mill-logo.png';
 
 // Company logos data
 const companyLogos = [
-  { name: 'Mill', logo: millLogo },
-  { name: 'Zipline', logo: ziplineLogo },
-  { name: 'UnitX', logo: unitxLogo },
-  { name: 'Fiat', logo: fiatLogo },
-  { name: 'GreyOrange', logo: greyorangeLogo },
-  { name: 'Bumblebee Spaces', logo: bumblebeeLogo },
+  { name: 'Mill', logo: millLogo, className: '' },
+  { name: 'Zipline', logo: ziplineLogo, className: '' },
+  { name: 'UnitX', logo: unitxLogo, className: 'scale-[2]' },
+  { name: 'Fiat', logo: fiatLogo, className: '' },
+  { name: 'GreyOrange', logo: greyorangeLogo, className: '' },
+  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, className: '' },
 ];
 
 const Hero = () => {
@@ -72,7 +72,7 @@ const Hero = () => {
                     <img 
                       src={company.logo} 
                       alt={company.name} 
-                      className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
+                      className={`h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100 ${company.className}`}
                     />
                   ) : (
                     <span className="text-foreground/60 font-heading font-semibold text-sm md:text-base hover:text-primary transition-colors">
