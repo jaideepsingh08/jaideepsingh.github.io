@@ -71,24 +71,26 @@ export const projects: Project[] = [
   // Professional Company Projects
   {
     id: 'sensory-labs',
-    title: 'Sensory Labs - Physical AI & Robotics',
+    title: 'Sensory Labs - Tactile Sensing for Physical AI',
     shortTitle: 'Sensory Labs',
     category: 'professional',
-    description: 'Building robotic systems that perceive and respond to the physical world through multimodal sensing and physical AI.',
-    fullDescription: `At Sensory Labs, I am building the next generation of robotic systems that can truly understand and interact with their environment. We are developing physical AI systems that combine advanced sensing modalities—tactile, visual, and proprioceptive—to create robots that don't just execute commands, but genuinely perceive and respond to the world around them.
+    description: 'Founded company building tactile multimodal sensing hardware and infrastructure for physical AI and industrial robotics applications.',
+    fullDescription: `Founded Sensory Labs to build tactile multimodal sensing hardware and infrastructure for physical AI. The vision was to enable robots to perceive and interact with the physical world through advanced touch sensing, similar to how humans use their sense of touch.
 
-This is the frontier of robotics: systems that can feel, adapt, and learn from physical interactions. The challenge is not just technical; it's about fundamentally rethinking how machines experience the physical world.`,
+Built early prototypes for multimodal sensing systems and explored industrial robotics applications. The technology combined tactile, visual, and proprioceptive sensing to create systems that could feel and adapt to physical interactions.
+
+The venture was early to market for physical AI applications. The experience reinforced my conviction that useful robots in the real world will require fundamentally better sensing capabilities.`,
     highlights: [
-      'Developing multimodal sensing systems for robotic perception',
-      'Building physical AI algorithms for real-world interaction',
-      'Leading hardware-software integration for sensing platforms',
-      'Creating systems that bridge the gap between AI and physical manipulation'
+      'Founded company focused on tactile sensing for robotics',
+      'Built early prototypes for multimodal sensing systems',
+      'Explored industrial robotics applications',
+      'Developed hardware infrastructure for physical AI'
     ],
-    technologies: ['Robotics', 'Physical AI', 'Multimodal Sensing', 'Machine Learning', 'Hardware Integration'],
+    technologies: ['Tactile Sensing', 'Physical AI', 'Multimodal Systems', 'Robotics', 'Hardware Prototyping'],
     image: amrImg,
-    year: '2024 - Present',
+    year: '2024 - 2025',
     company: 'Sensory Labs',
-    role: 'Hardware Engineering Lead'
+    role: 'Founder'
   },
   {
     id: 'unitx',
@@ -118,23 +120,23 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
     title: 'Mill - Kitchen Food Recycler',
     shortTitle: 'Mill',
     category: 'professional',
-    description: 'Founding engineer on a consumer appliance that transforms food scraps into fertilizer. 18 patents, UL/FCC certified, shipped to thousands of homes.',
-    fullDescription: `As a founding engineer at Mill, I helped build a kitchen appliance that fundamentally changes how people deal with food waste. The Mill food recycler transforms almost anything (from avocado pits to turkey bones) into nutrient-rich fertilizer, reducing food waste volume by 80%.
+    description: 'Founding engineer and Head of Systems Engineering. Led hardware architecture from pre-seed through Series B, filed 18 patents, achieved UL/FCC certification.',
+    fullDescription: `As a founding engineer at Mill, I led hardware and firmware architecture, development, validation, and production readiness for residential and commercial food waste recyclers from pre-seed through Series B.
 
-This wasn't just a product launch; it was bringing complex robotics and sensing technology into people's homes in a way that's invisible to the user. The system works overnight, automatically adjusting based on what you add, with no buttons to press or settings to configure.
+Led cross-functional teams to develop advanced systems for food waste management, reducing methane emissions. Built and scaled systems architecture for both consumer and commercial products, achieving Gen-1 and Gen-2 safety certifications from scratch working with UL for US and Canada compliance.
 
-Getting from concept to UL/FCC certified product in thousands of American homes required solving hard problems across mechanical engineering, thermal systems, sensing, and manufacturing at scale. The 18 patents reflect the depth of innovation required to make something this complex feel effortless.`,
+Owned the product reliability program to meet functional, reliability, safety, and certification goals. Responsible for scoping and onboarding strategic vendors, selecting, training, and ramping contract manufacturers across US and Mexico through proto-to-production stages. Filed over 18 patents related to novel technologies and built strategic partnerships with key component suppliers.`,
     highlights: [
-      'Founding engineer bringing complex technology to consumer homes',
-      '18 patents for novel mechanical and sensing systems',
-      'Led product through UL/FCC certification process',
-      'Shipped to thousands of homes across the United States'
+      'Founding engineer, pre-seed through Series B',
+      'Filed 18 patents for novel technologies',
+      'Led UL and FCC certifications for high-power appliances',
+      'Ramped contract manufacturers across US and Mexico'
     ],
-    technologies: ['Consumer Hardware', 'Thermal Systems', 'Embedded Sensing', 'DFM/DFA', 'UL/FCC Certification'],
+    technologies: ['Consumer Hardware', 'Systems Architecture', 'UL/FCC Certification', 'DFM/DFA', 'Manufacturing Scale-up'],
     image: bumblebeeImg,
-    year: '2020 - 2022',
+    year: '2021 - 2023',
     company: 'Mill',
-    role: 'Founding Hardware Engineer'
+    role: 'Head of Systems Engineering'
   },
   {
     id: 'zipline',
