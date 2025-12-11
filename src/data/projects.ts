@@ -24,6 +24,11 @@ import amrImg from '@/assets/projects/amr.jpg';
 import amrImg2 from '@/assets/projects/amr-2.jpg';
 import amrImg3 from '@/assets/projects/amr-3.jpg';
 import amrImg4 from '@/assets/projects/amr-4.jpg';
+import amrImg5 from '@/assets/projects/amr-5.jpg';
+import amrImg6 from '@/assets/projects/amr-6.jpg';
+import amrImg7 from '@/assets/projects/amr-7.jpg';
+import amrImg8 from '@/assets/projects/amr-8.webp';
+import amrImg9 from '@/assets/projects/amr-9.jpg';
 import butlerXlImg from '@/assets/projects/butler-xl.jpg';
 import butlerXlImg2 from '@/assets/projects/butler-xl-2.jpg';
 import butlerXlImg3 from '@/assets/projects/butler-xl-3.jpg';
@@ -248,9 +253,10 @@ This project required balancing competing requirements: structural rigidity for 
       'Platform foundation for multiple product variants'
     ],
     technologies: ['Mechanical Design', 'Robotics', 'SolidWorks', 'FEA', 'DFM/DFA'],
-    image: amrImg,
-    gallery: [amrImg, amrImg2, amrImg3, amrImg4],
+    image: amrImg7,
+    gallery: [amrImg7, amrImg6, amrImg8, amrImg9, amrImg5, amrImg, amrImg2, amrImg3, amrImg4],
     year: '2015 - 2016',
+    company: 'GreyOrange',
     role: 'Lead Mechanical Engineer'
   },
   {
