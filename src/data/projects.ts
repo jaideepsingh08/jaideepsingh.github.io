@@ -137,26 +137,26 @@ Getting from concept to UL/FCC certified product in thousands of American homes 
   },
   {
     id: 'zipline',
-    title: 'Zipline - Autonomous Delivery Systems',
+    title: 'Zipline - Platform 2 Ground Systems Architecture',
     shortTitle: 'Zipline',
     category: 'professional',
-    description: 'Designed ground systems for autonomous drone delivery, helping get medical supplies to remote areas faster than roads ever could.',
-    fullDescription: `At Zipline, I designed ground systems for the world's largest autonomous drone delivery network. Our drones deliver medical supplies, vaccines, and blood products to hospitals and clinics in areas where roads simply cannot reach fast enough.
+    description: 'Led early architecture exploration for Platform-2 ground systems, Zipline\'s next-gen drone logistics infrastructure.',
+    fullDescription: `At Zipline, I was part of the founding leadership team for Platform-2, the next-generation drone logistics system. I led early architecture exploration for ground systems, collaborating with Keenan Wyrobek and top-tier engineers to define the hardware systems architecture.
 
-The ground systems I worked on are the unsung heroes of autonomous delivery: the infrastructure that enables drones to launch, land, and reload thousands of times with near-perfect reliability. When a hospital needs blood for an emergency surgery, there is no margin for error.
+My role focused on translating product goals into technical requirements, auditing shipper sites, and identifying integration challenges. I developed sizing and integration concepts to enhance scalability across different customer types and deployment scenarios.
 
-This work showed me what it means to build technology that directly saves lives. The engineering challenges were significant, but the stakes made every solved problem meaningful.`,
+I built simulation tools to model system sizing for demand scenarios, throughput scale, and unit economics. These tools enabled data-driven decisions on system configuration and early cost estimates, helping shape the foundation for Zipline's next phase of growth.`,
     highlights: [
-      'Designed ground systems for autonomous drone delivery network',
-      'Built infrastructure enabling thousands of reliable flights',
-      'Systems support delivery of medical supplies to remote areas',
-      'Engineering directly impacting healthcare access globally'
+      'Founding leadership team for Platform-2 ground systems',
+      'Defined hardware systems architecture and technical requirements',
+      'Built simulation tools for system sizing and unit economics',
+      'Audited shipper sites and developed integration strategies'
     ],
-    technologies: ['Autonomous Systems', 'Ground Infrastructure', 'Mechanical Design', 'Reliability Engineering', 'Logistics'],
+    technologies: ['Systems Architecture', 'Simulation Modeling', 'Hardware Integration', 'Logistics Systems', 'Autonomous Delivery'],
     image: fiatImg,
-    year: '2019 - 2020',
+    year: '2020 - 2021',
     company: 'Zipline',
-    role: 'Mechanical Design Engineer'
+    role: 'Product Architect & Engineering Lead'
   },
   // Original Portfolio Projects
   {
