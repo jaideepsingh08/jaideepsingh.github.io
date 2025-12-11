@@ -13,7 +13,7 @@ const companyLogos = [
   { name: 'Zipline', logo: ziplineLogo, height: 'h-8' },
   { name: 'UnitX', logo: unitxLogo, height: 'h-12' },
   { name: 'Fiat', logo: fiatLogo, height: 'h-8' },
-  { name: 'GreyOrange', logo: greyorangeLogo, height: 'h-8' },
+  { name: 'GreyOrange', logo: greyorangeLogo, height: 'h-10' },
   { name: 'Bumblebee Spaces', logo: bumblebeeLogo, height: 'h-12' },
 ];
 
@@ -72,15 +72,14 @@ const Hero = () => {
             {/* Company Logos - clean grid */}
             <div className="animate-fade-up animation-delay-400">
               <p className="text-xs text-muted-foreground uppercase tracking-wider mb-4">Previously at</p>
-              <div className="flex flex-wrap items-center gap-6">
+              <div className="flex items-center gap-8">
                 {companyLogos.map(company => (
-                  <div key={company.name} className="w-16 flex items-center justify-center">
-                    <img 
-                      src={company.logo} 
-                      alt={company.name}
-                      className={`${company.height} w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100`}
-                    />
-                  </div>
+                  <img 
+                    key={company.name}
+                    src={company.logo} 
+                    alt={company.name}
+                    className={`${company.height} w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100`}
+                  />
                 ))}
               </div>
             </div>
