@@ -23,11 +23,11 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
       <article className="relative bg-card border border-border rounded-lg overflow-hidden card-hover h-full">
         {/* Image */}
         <div className="aspect-[4/3] bg-secondary overflow-hidden">
-          <div className="w-full h-full bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-            <span className="text-4xl font-heading font-bold text-muted-foreground/20">
-              {project.shortTitle.charAt(0)}
-            </span>
-          </div>
+          <img 
+            src={project.image} 
+            alt={project.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
         </div>
 
         {/* Content */}
