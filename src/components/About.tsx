@@ -1,31 +1,23 @@
 import { Wrench, Lightbulb, Users, Rocket } from 'lucide-react';
-
 const About = () => {
-  const strengths = [
-    {
-      icon: Wrench,
-      title: 'Systems Architecture',
-      description: 'Taking complex problems apart and building elegant solutions that integrate mechanical, electrical, and software systems.'
-    },
-    {
-      icon: Lightbulb,
-      title: 'Hardware Leadership',
-      description: 'Building and leading cross-functional ME/EE/FW teams to deliver products from concept through production.'
-    },
-    {
-      icon: Users,
-      title: 'Shipping at Scale',
-      description: 'Getting products certified, manufactured, and into users hands—from UL/FCC to factory floor.'
-    },
-    {
-      icon: Rocket,
-      title: 'Startup Building',
-      description: 'Founding engineer experience at multiple startups, building hardware teams and product culture from the ground up.'
-    }
-  ];
-
-  return (
-    <section id="about" className="section-padding bg-secondary/30">
+  const strengths = [{
+    icon: Wrench,
+    title: 'Systems Architecture',
+    description: 'Taking complex problems apart and building elegant solutions that integrate mechanical, electrical, and software systems.'
+  }, {
+    icon: Lightbulb,
+    title: 'Hardware Leadership',
+    description: 'Building and leading cross-functional ME/EE/FW teams to deliver products from concept through production.'
+  }, {
+    icon: Users,
+    title: 'Shipping at Scale',
+    description: 'Getting products certified, manufactured, and into users hands—from UL/FCC to factory floor.'
+  }, {
+    icon: Rocket,
+    title: 'Startup Building',
+    description: 'Founding engineer experience at multiple startups, building hardware teams and product culture from the ground up.'
+  }];
+  return <section id="about" className="section-padding bg-stone-100 text-blue-900">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left - Story */}
@@ -55,11 +47,7 @@ const About = () => {
 
           {/* Right - Strengths */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {strengths.map((strength, index) => (
-              <div
-                key={strength.title}
-                className="p-6 bg-card border border-border rounded-lg"
-              >
+            {strengths.map((strength, index) => <div key={strength.title} className="p-6 bg-card border border-border rounded-lg">
                 <strength.icon className="w-8 h-8 text-primary mb-4" />
                 <h3 className="font-heading font-semibold text-lg mb-2">
                   {strength.title}
@@ -67,8 +55,7 @@ const About = () => {
                 <p className="text-sm text-muted-foreground">
                   {strength.description}
                 </p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
 
@@ -76,24 +63,12 @@ const About = () => {
         <div className="mt-16 pt-16 border-t border-border">
           <h3 className="font-heading font-semibold text-xl mb-6">Technical Expertise</h3>
           <div className="flex flex-wrap gap-3">
-            {[
-              'Robotics', 'Mechanical Design', 'Systems Architecture', 'SolidWorks', 
-              'ANSYS', 'DFM/DFA', 'Product Certification', 'UL/FCC', 'CE', 
-              'Hardware Integration', 'Embedded Systems', 'Manufacturing', 
-              'Cross-functional Leadership', 'Startup Building'
-            ].map((skill) => (
-              <span
-                key={skill}
-                className="px-4 py-2 bg-secondary text-secondary-foreground text-sm rounded-full"
-              >
+            {['Robotics', 'Mechanical Design', 'Systems Architecture', 'SolidWorks', 'ANSYS', 'DFM/DFA', 'Product Certification', 'UL/FCC', 'CE', 'Hardware Integration', 'Embedded Systems', 'Manufacturing', 'Cross-functional Leadership', 'Startup Building'].map(skill => <span key={skill} className="px-4 py-2 bg-secondary text-secondary-foreground text-sm rounded-full">
                 {skill}
-              </span>
-            ))}
+              </span>)}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
