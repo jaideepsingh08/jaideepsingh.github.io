@@ -283,8 +283,8 @@ The engineering challenge was maintaining the reliability and maneuverability of
   },
   {
     id: 'fiat-closures',
-    title: 'Automotive Design & Manufacturing Technology',
-    shortTitle: 'FCA Engineering',
+    title: 'Fiat Chrysler - Automotive Design & Manufacturing',
+    shortTitle: 'Fiat Chrysler',
     category: 'professional',
     description: 'CAE durability analysis and manufacturing technology for engine and robotic Body-in-White assembly lines, including Made-in-India Jeep Compass.',
     fullDescription: `Two roles at Fiat Chrysler Automobiles spanning CAE durability analysis and manufacturing technology for vehicle production.
