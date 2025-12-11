@@ -27,13 +27,13 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Graduate education in Physics, Mechanical Engineering, and Hybrid Electric Vehicles. 
-                I work at the intersection of mechanical, electrical, and software systems.
+                I'm a hardware builder with a graduate education in Physics, Mechanical Engineering, and Hybrid Electric Vehicles. I build products at the intersection of mechanical, electrical, and software systems.
               </p>
               <p>
-                I've led hardware teams from pre-seed through Series C, taking products from 
-                prototype to certified and shipping. Zipline, Mill (18 patents), UnitX, and 
-                most recently founding Sensory Labs.
+                I've led hardware organizations from pre-seed through Series C, scaling teams, managing multi-million dollar budgets, and navigating the full journey from prototype to certified, shipping products. I thrive in ambiguity and move fast, building teams and companies from earliest days to scale.
+              </p>
+              <p>
+                My track record spans Sensory Labs (Founder, Physical AI), UnitX (AI manufacturing), Mill (consumer hardware, 18 patents), Zipline (autonomous delivery), and GreyOrange Robotics (Warehouse Robotics).
               </p>
             </div>
           </div>
