@@ -1,9 +1,15 @@
 // Import project images
 import bumblebeeImg from '@/assets/projects/bumblebee.jpg';
+import bumblebeeImg2 from '@/assets/projects/bumblebee-2.jpg';
+import bumblebeeImg3 from '@/assets/projects/bumblebee-3.jpg';
+import bumblebeeImg4 from '@/assets/projects/bumblebee-4.jpg';
 import amrImg from '@/assets/projects/amr.jpg';
 import butlerXlImg from '@/assets/projects/butler-xl.jpg';
 import fiatImg from '@/assets/projects/fiat.jpg';
 import bajaImg from '@/assets/projects/baja.jpg';
+import bajaImg2 from '@/assets/projects/baja-2.jpg';
+import bajaImg3 from '@/assets/projects/baja-3.jpg';
+import bajaImg4 from '@/assets/projects/baja-4.jpg';
 import igcImg from '@/assets/projects/igc.jpg';
 import efficycleImg from '@/assets/projects/efficycle.jpg';
 import rcRacingImg from '@/assets/projects/rc-racing.jpg';
@@ -24,6 +30,7 @@ export interface Project {
   highlights: string[];
   technologies: string[];
   image: string;
+  gallery?: string[];
   year: string;
   company?: string;
   role?: string;
@@ -139,6 +146,7 @@ The engineering challenge was making something as heavy and complex as furniture
     ],
     technologies: ['Robotics', 'Mechanical Design', 'Consumer Products', 'Safety Systems', 'Embedded Systems'],
     image: bumblebeeImg,
+    gallery: [bumblebeeImg, bumblebeeImg2, bumblebeeImg3, bumblebeeImg4],
     year: '2018 - 2019',
     company: 'Bumblebee Spaces',
     role: 'Mechanical Engineer'
@@ -221,6 +229,7 @@ This was my introduction to real vehicle dynamics and the art of designing for e
     ],
     technologies: ['Vehicle Dynamics', 'Chassis Design', 'Suspension Design', 'Welding', 'Competition Engineering'],
     image: bajaImg,
+    gallery: [bajaImg, bajaImg2, bajaImg3, bajaImg4],
     year: '2014 - 2015',
     role: 'Chassis Lead'
   },
