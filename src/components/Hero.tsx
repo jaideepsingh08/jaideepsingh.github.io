@@ -13,7 +13,7 @@ const companyLogos = [
   { name: 'UnitX', logo: unitxLogo, className: 'scale-[2]', extraSpace: true },
   { name: 'Fiat', logo: fiatLogo, className: '', extraSpace: false },
   { name: 'GreyOrange', logo: greyorangeLogo, className: '', extraSpace: false },
-  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, className: 'scale-[1.8]', extraSpace: true },
+  { name: 'Bumblebee Spaces', logo: bumblebeeLogo, className: 'scale-[1.5]', extraSpace: true },
 ];
 
 const Hero = () => {
