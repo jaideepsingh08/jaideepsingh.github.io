@@ -11,7 +11,7 @@ const Hero = () => {
     }} className="absolute inset-0 opacity-[0.02] bg-stone-100 text-blue-900" />
 
       <div className="container-custom relative z-10">
-        <div className="max-w-4xl">
+        <div className="max-w-4xl bg-stone-100 text-blue-900">
           {/* Name and Title */}
           <div className="animate-fade-up">
             <p className="text-primary font-medium mb-4 tracking-wide text-sm md:text-base">
