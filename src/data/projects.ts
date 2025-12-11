@@ -76,7 +76,7 @@ export const projects: Project[] = [
     description: 'Building robotic systems that perceive and respond to the physical world through multimodal sensing and physical AI.',
     fullDescription: `At Sensory Labs, I am building the next generation of robotic systems that can truly understand and interact with their environment. We are developing physical AI systems that combine advanced sensing modalities—tactile, visual, and proprioceptive—to create robots that don't just execute commands, but genuinely perceive and respond to the world around them.
 
-This is the frontier of robotics: systems that can feel, adapt, and learn from physical interactions. The challenge isn't just technical—it's about fundamentally rethinking how machines experience the physical world.`,
+This is the frontier of robotics: systems that can feel, adapt, and learn from physical interactions. The challenge is not just technical; it's about fundamentally rethinking how machines experience the physical world.`,
     highlights: [
       'Developing multimodal sensing systems for robotic perception',
       'Building physical AI algorithms for real-world interaction',
@@ -118,7 +118,7 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
     shortTitle: 'Mill',
     category: 'professional',
     description: 'Founding engineer on a consumer appliance that transforms food scraps into fertilizer. 18 patents, UL/FCC certified, shipped to thousands of homes.',
-    fullDescription: `As a founding engineer at Mill, I helped build a kitchen appliance that fundamentally changes how people deal with food waste. The Mill food recycler transforms almost anything—from avocado pits to turkey bones—into nutrient-rich fertilizer, reducing food waste volume by 80%.
+    fullDescription: `As a founding engineer at Mill, I helped build a kitchen appliance that fundamentally changes how people deal with food waste. The Mill food recycler transforms almost anything (from avocado pits to turkey bones) into nutrient-rich fertilizer, reducing food waste volume by 80%.
 
 This wasn't just a product launch; it was bringing complex robotics and sensing technology into people's homes in a way that's invisible to the user. The system works overnight, automatically adjusting based on what you add, with no buttons to press or settings to configure.
 
@@ -143,7 +143,7 @@ Getting from concept to UL/FCC certified product in thousands of American homes 
     description: 'Designed ground systems for autonomous drone delivery, helping get medical supplies to remote areas faster than roads ever could.',
     fullDescription: `At Zipline, I designed ground systems for the world's largest autonomous drone delivery network. Our drones deliver medical supplies, vaccines, and blood products to hospitals and clinics in areas where roads simply cannot reach fast enough.
 
-The ground systems I worked on are the unsung heroes of autonomous delivery—the infrastructure that enables drones to launch, land, and reload thousands of times with near-perfect reliability. When a hospital needs blood for an emergency surgery, there's no margin for error.
+The ground systems I worked on are the unsung heroes of autonomous delivery: the infrastructure that enables drones to launch, land, and reload thousands of times with near-perfect reliability. When a hospital needs blood for an emergency surgery, there is no margin for error.
 
 This work showed me what it means to build technology that directly saves lives. The engineering challenges were significant, but the stakes made every solved problem meaningful.`,
     highlights: [
@@ -165,7 +165,7 @@ This work showed me what it means to build technology that directly saves lives.
     shortTitle: 'Robotic Furniture',
     category: 'professional',
     description: 'Designed and developed robotic furniture systems that transform living spaces on demand.',
-    fullDescription: `At Bumblebee Spaces, I worked on robotic furniture systems that reimagine how people use space in their homes. These ceiling-mounted systems lower furniture—beds, desks, storage—on demand, effectively doubling usable floor space in urban apartments.
+    fullDescription: `At Bumblebee Spaces, I worked on robotic furniture systems that reimagine how people use space in their homes. These ceiling-mounted systems lower furniture (beds, desks, storage) on demand, effectively doubling usable floor space in urban apartments.
 
 The engineering challenge was making something as heavy and complex as furniture move safely and silently in people's homes, thousands of times over its lifetime. This required innovative mechanical design, robust sensing systems, and meticulous attention to user experience.`,
     highlights: [
@@ -316,7 +316,7 @@ This project combined my interests in vehicle design and sustainable transportat
     description: 'Built high-performance RC racing prototype for competitive events at IIT Bombay Techfest.',
     fullDescription: `Designed and built a high-performance RC racing prototype for competitive events at IIT Bombay's Techfest, one of Asia's largest science and technology festivals.
 
-RC racing is a proving ground for understanding vehicle dynamics at a manageable scale. The principles—weight distribution, suspension tuning, power-to-weight ratio—translate directly to full-scale vehicles, but you can iterate much faster.`,
+RC racing is a proving ground for understanding vehicle dynamics at a manageable scale. The principles (weight distribution, suspension tuning, power-to-weight ratio) translate directly to full-scale vehicles, but you can iterate much faster.`,
     highlights: [
       'High-performance chassis design',
       'Competitive racing configuration',
@@ -377,7 +377,7 @@ This work combined my interests in electric vehicles with rigorous analytical me
     shortTitle: 'Mars Challenge',
     category: 'personal',
     description: 'Conceptual design for Mars habitat and urbanization systems for NASA-affiliated competition.',
-    fullDescription: `Developed conceptual designs for Mars habitat and urbanization systems as part of a NASA-affiliated design competition. The challenge required thinking through all aspects of sustainable human presence on Mars—from structural systems to life support to psychological well-being.
+    fullDescription: `Developed conceptual designs for Mars habitat and urbanization systems as part of a NASA-affiliated design competition. The challenge required thinking through all aspects of sustainable human presence on Mars, from structural systems to life support to psychological well-being.
 
 Projects like this stretch your thinking beyond conventional constraints. When you cannot rely on Earth-based assumptions, you are forced to reason from first principles about what humans actually need to survive and thrive.`,
     highlights: [
@@ -400,7 +400,7 @@ Projects like this stretch your thinking beyond conventional constraints. When y
     description: 'Designed affordable ventilator system for resource-constrained healthcare settings.',
     fullDescription: `Designed a low-cost ventilator system intended for resource-constrained healthcare settings, particularly in developing countries where access to medical equipment is limited.
 
-This project combined mechanical engineering with healthcare impact. The challenge was achieving medical-grade performance at a fraction of traditional costs—requiring creative approaches to components, manufacturing, and reliability.`,
+This project combined mechanical engineering with healthcare impact. The challenge was achieving medical-grade performance at a fraction of traditional costs, requiring creative approaches to components, manufacturing, and reliability.`,
     highlights: [
       'Cost-optimized medical device design',
       'Designed for resource-constrained settings',
