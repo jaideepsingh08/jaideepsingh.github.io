@@ -9,6 +9,9 @@ import millImg from '@/assets/projects/mill.jpg';
 import millImg2 from '@/assets/projects/mill-2.jpg';
 import millImg3 from '@/assets/projects/mill-3.jpg';
 import millImg4 from '@/assets/projects/mill-4.jpg';
+import ziplineImg from '@/assets/projects/zipline.webp';
+import ziplineImg2 from '@/assets/projects/zipline-2.webp';
+import ziplineImg3 from '@/assets/projects/zipline-3.jpg';
 import unitxImg from '@/assets/projects/unitx.jpg';
 import unitxImg2 from '@/assets/projects/unitx-2.jpg';
 import unitxImg3 from '@/assets/projects/unitx-3.jpg';
@@ -172,7 +175,8 @@ I built simulation tools to model system sizing for demand scenarios, throughput
       'Audited shipper sites and developed integration strategies'
     ],
     technologies: ['Systems Architecture', 'Simulation Modeling', 'Hardware Integration', 'Logistics Systems', 'Autonomous Delivery'],
-    image: fiatImg,
+    image: ziplineImg,
+    gallery: [ziplineImg, ziplineImg2, ziplineImg3],
     year: '2020 - 2021',
     company: 'Zipline',
     role: 'Product Architect & Engineering Lead'
