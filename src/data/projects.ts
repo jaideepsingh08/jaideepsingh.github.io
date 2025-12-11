@@ -5,6 +5,10 @@ import sensoryLabsImg2 from '@/assets/projects/sensory-labs-2.png';
 import sensoryLabsImg3 from '@/assets/projects/sensory-labs-3.png';
 import sensoryLabsImg4 from '@/assets/projects/sensory-labs-4.png';
 import sensoryLabsImg5 from '@/assets/projects/sensory-labs-5.jpg';
+import millImg from '@/assets/projects/mill.jpg';
+import millImg2 from '@/assets/projects/mill-2.jpg';
+import millImg3 from '@/assets/projects/mill-3.jpg';
+import millImg4 from '@/assets/projects/mill-4.jpg';
 import unitxImg from '@/assets/projects/unitx.jpg';
 import unitxImg2 from '@/assets/projects/unitx-2.jpg';
 import unitxImg3 from '@/assets/projects/unitx-3.jpg';
@@ -144,7 +148,8 @@ Owned the product reliability program to meet functional, reliability, safety, a
       'Ramped contract manufacturers across US and Mexico'
     ],
     technologies: ['Consumer Hardware', 'Systems Architecture', 'UL/FCC Certification', 'DFM/DFA', 'Manufacturing Scale-up'],
-    image: bumblebeeImg,
+    image: millImg,
+    gallery: [millImg, millImg2, millImg3, millImg4],
     year: '2021 - 2023',
     company: 'Mill',
     role: 'Head of Systems Engineering'
