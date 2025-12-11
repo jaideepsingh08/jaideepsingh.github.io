@@ -135,14 +135,14 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
     title: 'Mill - Kitchen Food Recycler',
     shortTitle: 'Mill',
     category: 'professional',
-    description: 'Founding engineer and Head of Systems Engineering. Led hardware architecture from pre-seed through Series B, filed 18 patents, achieved UL/FCC certification.',
-    fullDescription: `As a founding engineer at Mill, I led hardware and firmware architecture, development, validation, and production readiness for residential and commercial food waste recyclers from pre-seed through Series B.
+    description: 'Founding engineer and Head of Systems Engineering. Led hardware architecture from pre-seed through Series C, filed 18 patents, achieved UL/FCC certification.',
+    fullDescription: `As a founding engineer at Mill, I led hardware and firmware architecture, development, validation, and production readiness for residential and commercial food waste recyclers from pre-seed through Series C.
 
 Led cross-functional teams to develop advanced systems for food waste management, reducing methane emissions. Built and scaled systems architecture for both consumer and commercial products, achieving Gen-1 and Gen-2 safety certifications from scratch working with UL for US and Canada compliance.
 
 Owned the product reliability program to meet functional, reliability, safety, and certification goals. Responsible for scoping and onboarding strategic vendors, selecting, training, and ramping contract manufacturers across US and Mexico through proto-to-production stages. Filed over 18 patents related to novel technologies and built strategic partnerships with key component suppliers.`,
     highlights: [
-      'Founding engineer, pre-seed through Series B',
+      'Founding engineer, pre-seed through Series C',
       'Filed 18 patents for novel technologies',
       'Led UL and FCC certifications for high-power appliances',
       'Ramped contract manufacturers across US and Mexico'
