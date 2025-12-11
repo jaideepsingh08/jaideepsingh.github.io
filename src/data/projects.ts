@@ -244,7 +244,7 @@ This project required balancing competing requirements: structural rigidity for 
     technologies: ['Mechanical Design', 'Robotics', 'SolidWorks', 'FEA', 'DFM/DFA'],
     image: amrImg,
     gallery: [amrImg, amrImg2, amrImg3, amrImg4],
-    year: '2017 - 2018',
+    year: '2015 - 2016',
     role: 'Lead Mechanical Engineer'
   },
   {
@@ -265,7 +265,7 @@ The engineering challenge was maintaining the reliability and maneuverability of
     technologies: ['Heavy Robotics', 'Industrial Design', 'Structural Analysis', 'Power Systems', 'Thermal Management'],
     image: butlerXlImg,
     gallery: [butlerXlImg, butlerXlImg2, butlerXlImg3, butlerXlImg4],
-    year: '2018',
+    year: '2016 - 2017',
     role: 'Senior Mechanical Engineer'
   },
   {
@@ -286,7 +286,7 @@ Automotive closures are surprisingly complex systems that must balance structura
     technologies: ['ANSYS', 'HyperMesh', 'NVH Analysis', 'Structural FEA', 'Automotive Engineering'],
     image: fiatImg,
     gallery: [fiatImg, fiatImg2, fiatImg3, fiatImg4],
-    year: '2016 - 2017',
+    year: '2014 - 2015',
     company: 'Fiat Chrysler Automobiles',
     role: 'CAE Engineer'
   },
