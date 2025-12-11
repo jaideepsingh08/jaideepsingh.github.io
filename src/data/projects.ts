@@ -1,3 +1,17 @@
+// Import project images
+import bumblebeeImg from '@/assets/projects/bumblebee.jpg';
+import amrImg from '@/assets/projects/amr.jpg';
+import butlerXlImg from '@/assets/projects/butler-xl.jpg';
+import fiatImg from '@/assets/projects/fiat.jpg';
+import bajaImg from '@/assets/projects/baja.jpg';
+import igcImg from '@/assets/projects/igc.jpg';
+import efficycleImg from '@/assets/projects/efficycle.jpg';
+import rcRacingImg from '@/assets/projects/rc-racing.jpg';
+import scooterImg from '@/assets/projects/scooter.jpg';
+import bevAnalysisImg from '@/assets/projects/bev-analysis.jpg';
+import marsImg from '@/assets/projects/mars.jpg';
+import ventilatorImg from '@/assets/projects/ventilator.jpg';
+
 export type ProjectCategory = 'professional' | 'academic' | 'personal';
 
 export interface Project {
@@ -33,7 +47,7 @@ This is the frontier of robotics: systems that can feel, adapt, and learn from p
       'Creating systems that bridge the gap between AI and physical manipulation'
     ],
     technologies: ['Robotics', 'Physical AI', 'Multimodal Sensing', 'Machine Learning', 'Hardware Integration'],
-    image: '/placeholder.svg',
+    image: amrImg,
     year: '2024 - Present',
     company: 'Sensory Labs',
     role: 'Hardware Engineering Lead'
@@ -56,7 +70,7 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
       'Designed hardware for 24/7 operation in demanding factory environments'
     ],
     technologies: ['Computer Vision', 'AI/ML', 'Industrial Hardware', 'Manufacturing Systems', 'Quality Control'],
-    image: '/placeholder.svg',
+    image: butlerXlImg,
     year: '2022 - 2024',
     company: 'UnitX',
     role: 'Hardware Engineering Lead'
@@ -79,7 +93,7 @@ Getting from concept to UL/FCC certified product in thousands of American homes 
       'Shipped to thousands of homes across the United States'
     ],
     technologies: ['Consumer Hardware', 'Thermal Systems', 'Embedded Sensing', 'DFM/DFA', 'UL/FCC Certification'],
-    image: '/placeholder.svg',
+    image: bumblebeeImg,
     year: '2020 - 2022',
     company: 'Mill',
     role: 'Founding Hardware Engineer'
@@ -102,7 +116,7 @@ This work showed me what it means to build technology that directly saves lives.
       'Engineering directly impacting healthcare access globally'
     ],
     technologies: ['Autonomous Systems', 'Ground Infrastructure', 'Mechanical Design', 'Reliability Engineering', 'Logistics'],
-    image: '/placeholder.svg',
+    image: fiatImg,
     year: '2019 - 2020',
     company: 'Zipline',
     role: 'Mechanical Design Engineer'
@@ -124,7 +138,7 @@ The engineering challenge was making something as heavy and complex as furniture
       'Focus on silent operation and seamless user experience'
     ],
     technologies: ['Robotics', 'Mechanical Design', 'Consumer Products', 'Safety Systems', 'Embedded Systems'],
-    image: '/placeholder.svg',
+    image: bumblebeeImg,
     year: '2018 - 2019',
     company: 'Bumblebee Spaces',
     role: 'Mechanical Engineer'
@@ -145,7 +159,7 @@ This project required balancing competing requirements: structural rigidity for 
       'Platform foundation for multiple product variants'
     ],
     technologies: ['Mechanical Design', 'Robotics', 'SolidWorks', 'FEA', 'DFM/DFA'],
-    image: '/placeholder.svg',
+    image: amrImg,
     year: '2017 - 2018',
     role: 'Lead Mechanical Engineer'
   },
@@ -165,7 +179,7 @@ The engineering challenge was maintaining the reliability and maneuverability of
       'Advanced thermal and power management'
     ],
     technologies: ['Heavy Robotics', 'Industrial Design', 'Structural Analysis', 'Power Systems', 'Thermal Management'],
-    image: '/placeholder.svg',
+    image: butlerXlImg,
     year: '2018',
     role: 'Senior Mechanical Engineer'
   },
@@ -185,7 +199,7 @@ Automotive closures are surprisingly complex systems that must balance structura
       'Automotive-grade engineering standards'
     ],
     technologies: ['ANSYS', 'HyperMesh', 'NVH Analysis', 'Structural FEA', 'Automotive Engineering'],
-    image: '/placeholder.svg',
+    image: fiatImg,
     year: '2016 - 2017',
     company: 'Fiat Chrysler Automobiles',
     role: 'CAE Engineer'
@@ -206,7 +220,7 @@ This was my introduction to real vehicle dynamics and the art of designing for e
       'Hands-on fabrication and testing'
     ],
     technologies: ['Vehicle Dynamics', 'Chassis Design', 'Suspension Design', 'Welding', 'Competition Engineering'],
-    image: '/placeholder.svg',
+    image: bajaImg,
     year: '2014 - 2015',
     role: 'Chassis Lead'
   },
@@ -226,7 +240,7 @@ Racing teaches engineering lessons you cannot learn in a classroom. When your de
       'Team leadership and project management'
     ],
     technologies: ['Kart Design', 'Vehicle Dynamics', 'Fabrication', 'Competition Strategy', 'Team Leadership'],
-    image: '/placeholder.svg',
+    image: igcImg,
     year: '2013',
     role: 'Team Lead'
   },
@@ -246,7 +260,7 @@ This project combined my interests in vehicle design and sustainable transportat
       'Practical design for real-world usability'
     ],
     technologies: ['Hybrid Systems', 'Electric Vehicles', 'Lightweight Design', 'Efficiency Engineering', 'Sustainable Transport'],
-    image: '/placeholder.svg',
+    image: efficycleImg,
     year: '2014',
     role: 'Design Lead'
   },
@@ -266,7 +280,7 @@ RC racing is a proving ground for understanding vehicle dynamics at a manageable
       'Performance tuning and optimization'
     ],
     technologies: ['RC Design', 'Rapid Prototyping', 'Vehicle Dynamics', 'Performance Tuning', '3D Printing'],
-    image: '/placeholder.svg',
+    image: rcRacingImg,
     year: '2013',
     role: 'Designer & Builder'
   },
@@ -286,7 +300,7 @@ Personal projects like this let me explore ideas without constraints. The goal w
       'Real-world usability focus'
     ],
     technologies: ['Electric Vehicles', 'Battery Systems', 'Mechanical Design', 'Urban Mobility', 'Personal Transport'],
-    image: '/placeholder.svg',
+    image: scooterImg,
     year: '2015',
     role: 'Personal Project'
   },
@@ -306,7 +320,7 @@ This work combined my interests in electric vehicles with rigorous analytical me
       'Research publication and presentation'
     ],
     technologies: ['MATLAB', 'Battery Modeling', 'Energy Systems', 'Data Analysis', 'Electric Vehicles'],
-    image: '/placeholder.svg',
+    image: bevAnalysisImg,
     year: '2016',
     role: 'Research Engineer'
   },
@@ -326,7 +340,7 @@ Projects like this stretch your thinking beyond conventional constraints. When y
       'NASA competition participation'
     ],
     technologies: ['Space Systems', 'Habitat Design', 'Life Support', 'Structural Engineering', 'Systems Thinking'],
-    image: '/placeholder.svg',
+    image: marsImg,
     year: '2016',
     role: 'Design Lead'
   },
@@ -346,7 +360,7 @@ This project combined mechanical engineering with healthcare impact. The challen
       'Focus on manufacturability and reliability'
     ],
     technologies: ['Medical Devices', 'Low-Cost Design', 'Pneumatic Systems', 'Healthcare Engineering', 'DFM'],
-    image: '/placeholder.svg',
+    image: ventilatorImg,
     year: '2020',
     role: 'Personal Project'
   }
