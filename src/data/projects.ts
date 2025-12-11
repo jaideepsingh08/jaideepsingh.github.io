@@ -4,14 +4,26 @@ import bumblebeeImg2 from '@/assets/projects/bumblebee-2.jpg';
 import bumblebeeImg3 from '@/assets/projects/bumblebee-3.jpg';
 import bumblebeeImg4 from '@/assets/projects/bumblebee-4.jpg';
 import amrImg from '@/assets/projects/amr.jpg';
+import amrImg2 from '@/assets/projects/amr-2.jpg';
+import amrImg3 from '@/assets/projects/amr-3.jpg';
+import amrImg4 from '@/assets/projects/amr-4.jpg';
 import butlerXlImg from '@/assets/projects/butler-xl.jpg';
+import butlerXlImg2 from '@/assets/projects/butler-xl-2.jpg';
+import butlerXlImg3 from '@/assets/projects/butler-xl-3.jpg';
+import butlerXlImg4 from '@/assets/projects/butler-xl-4.jpg';
 import fiatImg from '@/assets/projects/fiat.jpg';
 import bajaImg from '@/assets/projects/baja.jpg';
 import bajaImg2 from '@/assets/projects/baja-2.jpg';
 import bajaImg3 from '@/assets/projects/baja-3.jpg';
 import bajaImg4 from '@/assets/projects/baja-4.jpg';
 import igcImg from '@/assets/projects/igc.jpg';
+import igcImg2 from '@/assets/projects/igc-2.jpg';
+import igcImg3 from '@/assets/projects/igc-3.jpg';
+import igcImg4 from '@/assets/projects/igc-4.jpg';
 import efficycleImg from '@/assets/projects/efficycle.jpg';
+import efficycleImg2 from '@/assets/projects/efficycle-2.jpg';
+import efficycleImg3 from '@/assets/projects/efficycle-3.jpg';
+import efficycleImg4 from '@/assets/projects/efficycle-4.jpg';
 import rcRacingImg from '@/assets/projects/rc-racing.jpg';
 import scooterImg from '@/assets/projects/scooter.jpg';
 import bevAnalysisImg from '@/assets/projects/bev-analysis.jpg';
@@ -168,6 +180,7 @@ This project required balancing competing requirements: structural rigidity for 
     ],
     technologies: ['Mechanical Design', 'Robotics', 'SolidWorks', 'FEA', 'DFM/DFA'],
     image: amrImg,
+    gallery: [amrImg, amrImg2, amrImg3, amrImg4],
     year: '2017 - 2018',
     role: 'Lead Mechanical Engineer'
   },
@@ -188,6 +201,7 @@ The engineering challenge was maintaining the reliability and maneuverability of
     ],
     technologies: ['Heavy Robotics', 'Industrial Design', 'Structural Analysis', 'Power Systems', 'Thermal Management'],
     image: butlerXlImg,
+    gallery: [butlerXlImg, butlerXlImg2, butlerXlImg3, butlerXlImg4],
     year: '2018',
     role: 'Senior Mechanical Engineer'
   },
@@ -250,6 +264,7 @@ Racing teaches engineering lessons you cannot learn in a classroom. When your de
     ],
     technologies: ['Kart Design', 'Vehicle Dynamics', 'Fabrication', 'Competition Strategy', 'Team Leadership'],
     image: igcImg,
+    gallery: [igcImg, igcImg2, igcImg3, igcImg4],
     year: '2013',
     role: 'Team Lead'
   },
@@ -270,6 +285,7 @@ This project combined my interests in vehicle design and sustainable transportat
     ],
     technologies: ['Hybrid Systems', 'Electric Vehicles', 'Lightweight Design', 'Efficiency Engineering', 'Sustainable Transport'],
     image: efficycleImg,
+    gallery: [efficycleImg, efficycleImg2, efficycleImg3, efficycleImg4],
     year: '2014',
     role: 'Design Lead'
   },
