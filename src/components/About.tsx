@@ -47,7 +47,7 @@ const About = () => {
 
           {/* Right - Strengths */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {strengths.map((strength, index) => <div key={strength.title} className="p-6 bg-card border border-border rounded-lg">
+            {strengths.map((strength, index) => <div key={strength.title} className="p-6 border border-border rounded-lg bg-stone-200 text-blue-900">
                 <strength.icon className="w-8 h-8 text-primary mb-4" />
                 <h3 className="font-heading font-semibold text-lg mb-2">
                   {strength.title}
