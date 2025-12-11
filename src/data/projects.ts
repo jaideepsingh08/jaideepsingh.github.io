@@ -107,7 +107,7 @@ The venture was early to market for physical AI applications. The experience rei
     gallery: [sensoryLabsImg, sensoryLabsImg2, sensoryLabsImg3, sensoryLabsImg4, sensoryLabsImg5],
     year: '2024 - 2025',
     company: 'Sensory Labs',
-    role: 'Founder'
+    role: 'Founder & CTO'
   },
   {
     id: 'unitx',
@@ -131,7 +131,7 @@ We achieved 9x lower escape rates than traditional inspection methods and 3x fas
     gallery: [unitxImg, unitxImg2, unitxImg3, unitxImg4],
     year: '2022 - 2024',
     company: 'UnitX',
-    role: 'Hardware Engineering Lead'
+    role: 'Director of Engineering'
   },
   {
     id: 'mill',
