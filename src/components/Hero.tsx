@@ -34,7 +34,7 @@ const Hero = () => {
               Jaideep Singh
             </h1>
             <p className="text-primary font-medium mb-6 tracking-wide text-sm md:text-base">
-              Building in Hardware, Robotics and Manufacturing
+              Hardware · Robotics · Manufacturing
             </p>
           </div>
 
