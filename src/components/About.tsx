@@ -27,10 +27,13 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm a hardware builder with a graduate education in Physics, Mechanical Engineering, and Hybrid Electric Vehicles. I build products at the intersection of mechanical, electrical, and software systems.
+                I work at the intersection of mechanical, electrical, and software in a range of industries.
               </p>
               <p>
-                I've led hardware organizations from pre-seed through Series C, scaling teams, managing multi-million dollar budgets, and navigating the full journey from prototype to certified, shipping products. I thrive in ambiguity and move fast, building teams and companies from earliest days to scale.
+                I've led hardware organizations from founding through Series C: building teams, managing budgets, navigating certifications, and shipping products that work at scale. I care about getting the details right and moving fast.
+              </p>
+              <p>
+                Background in Physics, Mechanical Engineering, and Hybrid Electric Vehicles.
               </p>
             </div>
           </div>
