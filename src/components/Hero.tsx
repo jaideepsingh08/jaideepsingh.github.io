@@ -1,5 +1,16 @@
 import { ArrowDown, Linkedin, Mail, MapPin } from 'lucide-react';
-import { companies } from '@/data/projects';
+import unitxLogo from '@/assets/logos/unitx-logo.jpg';
+
+// Company logos data
+const companyLogos = [
+  { name: 'Mill', logo: null },
+  { name: 'Zipline', logo: null },
+  { name: 'UnitX', logo: unitxLogo },
+  { name: 'Fiat', logo: null },
+  { name: 'GreyOrange', logo: null },
+  { name: 'Bumblebee Spaces', logo: null },
+];
+
 const Hero = () => {
   return <section className="min-h-screen flex flex-col justify-center relative overflow-hidden pt-20 bg-stone-100">
       {/* Background gradient */}
@@ -50,17 +61,24 @@ const Hero = () => {
           {/* Company Logos */}
           <div className="animate-fade-up animation-delay-300">
             <p className="text-xs uppercase tracking-wider text-muted-foreground mb-4">
-              Building at
+              Companies I've worked with
             </p>
-            <div className="flex flex-wrap items-center gap-8">
-              {companies.map(company => <div key={company.name} className="group">
-                  <div className="text-foreground font-heading font-semibold text-lg group-hover:text-primary transition-colors">
-                    {company.name}
-                  </div>
-                  <div className="text-xs text-muted-foreground">
-                    {company.description}
-                  </div>
-                </div>)}
+            <div className="flex flex-wrap items-center gap-6 md:gap-10">
+              {companyLogos.map(company => (
+                <div key={company.name} className="group">
+                  {company.logo ? (
+                    <img 
+                      src={company.logo} 
+                      alt={company.name} 
+                      className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
+                    />
+                  ) : (
+                    <span className="text-foreground/60 font-heading font-semibold text-sm md:text-base hover:text-primary transition-colors">
+                      {company.name}
+                    </span>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
