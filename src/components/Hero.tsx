@@ -1,14 +1,17 @@
 import { ArrowDown, Linkedin, Mail, MapPin } from 'lucide-react';
 import unitxLogo from '@/assets/logos/unitx-logo.jpg';
+import greyorangeLogo from '@/assets/logos/greyorange-logo.png';
+import fiatLogo from '@/assets/logos/fiat-logo.png';
+import bumblebeeLogo from '@/assets/logos/bumblebee-logo.png';
 
 // Company logos data
 const companyLogos = [
   { name: 'Mill', logo: null },
   { name: 'Zipline', logo: null },
   { name: 'UnitX', logo: unitxLogo },
-  { name: 'Fiat', logo: null },
-  { name: 'GreyOrange', logo: null },
-  { name: 'Bumblebee Spaces', logo: null },
+  { name: 'Fiat', logo: fiatLogo },
+  { name: 'GreyOrange', logo: greyorangeLogo },
+  { name: 'Bumblebee Spaces', logo: bumblebeeLogo },
 ];
 
 const Hero = () => {
