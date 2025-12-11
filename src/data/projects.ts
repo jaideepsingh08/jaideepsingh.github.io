@@ -231,8 +231,8 @@ The engineering challenge was making something as heavy and complex as furniture
   },
   {
     id: 'autonomous-mobile-robot',
-    title: 'Mechanical Design of Autonomous Mobile Robot',
-    shortTitle: 'AMR Design',
+    title: 'Warehouse Robotics - Butler',
+    shortTitle: 'Warehouse Robotics',
     category: 'professional',
     description: 'Complete mechanical design of autonomous mobile robot platform for warehouse automation.',
     fullDescription: `Led the mechanical design of an autonomous mobile robot (AMR) for warehouse and logistics applications. The robot needed to navigate complex environments, carry significant payloads, and operate reliably for extended periods.
@@ -252,8 +252,8 @@ This project required balancing competing requirements: structural rigidity for 
   },
   {
     id: 'butler-xl',
-    title: 'Mechanical Design of AMR - BUTLER XL',
-    shortTitle: 'BUTLER XL',
+    title: 'Warehouse Robotics - Butler XL',
+    shortTitle: 'Butler XL',
     category: 'professional',
     description: 'Heavy-duty autonomous mobile robot designed for larger payloads and industrial applications.',
     fullDescription: `Extended the autonomous mobile robot platform to handle significantly larger payloads for industrial warehouse applications. The BUTLER XL required fundamental rethinking of structural design, drivetrain, and navigation systems to handle the increased scale.
@@ -266,8 +266,8 @@ The engineering challenge was maintaining the reliability and maneuverability of
       'Advanced thermal and power management'
     ],
     technologies: ['Heavy Robotics', 'Industrial Design', 'Structural Analysis', 'Power Systems', 'Thermal Management'],
-    image: butlerXlImg,
-    gallery: [butlerXlImg, butlerXlImg2, butlerXlImg3, butlerXlImg4],
+    image: butlerXlImg2,
+    gallery: [butlerXlImg2, butlerXlImg, butlerXlImg3, butlerXlImg4],
     year: '2016 - 2017',
     role: 'Senior Mechanical Engineer'
   },
