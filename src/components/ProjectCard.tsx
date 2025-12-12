@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import { Project } from '@/data/projects';
+import ProtectedImage from '@/components/ProtectedImage';
 interface ProjectCardProps {
   project: Project;
   index: number;
@@ -20,7 +21,7 @@ const ProjectCard = ({
       <article className="relative border border-border rounded-lg overflow-hidden card-hover h-full bg-stone-200">
         {/* Image */}
         <div className="aspect-[4/3] bg-secondary overflow-hidden">
-          <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <ProtectedImage src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
 
         {/* Content */}
