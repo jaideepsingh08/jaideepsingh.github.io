@@ -6,6 +6,7 @@ import bumblebeeLogo from '@/assets/logos/bumblebee-logo.png';
 import ziplineLogo from '@/assets/logos/zipline-logo.png';
 import millLogo from '@/assets/logos/mill-logo.png';
 import headshot from '@/assets/jaideep-headshot.jpeg';
+import ProtectedImage from '@/components/ProtectedImage';
 
 // Company logos data - with height adjustments for smaller logos
 const companyLogos = [
@@ -74,7 +75,7 @@ const Hero = () => {
               <p className="text-xs text-muted-foreground uppercase tracking-wider mb-4">Previously at</p>
               <div className="flex flex-wrap items-center gap-6 lg:gap-8">
                 {companyLogos.map(company => (
-                  <img 
+                  <ProtectedImage 
                     key={company.name}
                     src={company.logo} 
                     alt={company.name}
@@ -88,7 +89,7 @@ const Hero = () => {
           {/* Headshot */}
           <div className="order-1 lg:order-2 animate-fade-up flex justify-center lg:justify-end">
             <div className="relative">
-              <img 
+              <ProtectedImage 
                 src={headshot} 
                 alt="Jaideep Singh" 
                 className="w-56 h-72 md:w-64 md:h-80 lg:w-72 lg:h-[22rem] rounded-2xl object-cover object-top shadow-2xl"

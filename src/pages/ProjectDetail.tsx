@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowUpRight, Calendar, Building2, User } from 'lucide-react
 import { getProjectById, projects } from '@/data/projects';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import ProtectedImage from '@/components/ProtectedImage';
 import {
   Carousel,
   CarouselContent,
@@ -109,7 +110,7 @@ const ProjectDetail = () => {
 
               {/* Right - Image */}
               <div className="aspect-[4/3] bg-card border border-border rounded-lg overflow-hidden">
-                <img 
+                <ProtectedImage 
                   src={project.image} 
                   alt={project.title}
                   className="w-full h-full object-cover"
@@ -203,7 +204,7 @@ const ProjectDetail = () => {
                     {project.gallery.map((img, index) => (
                       <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
                         <div className="aspect-[4/3] overflow-hidden rounded-lg border border-border">
-                          <img
+                          <ProtectedImage
                             src={img}
                             alt={`${project.title} - Image ${index + 1}`}
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
