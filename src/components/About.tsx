@@ -2,20 +2,20 @@ import { Layers, Users, Zap, TrendingUp } from 'lucide-react';
 const About = () => {
   const strengths = [{
     icon: Layers,
-    title: 'Full-Stack Hardware',
-    description: 'Designing end-to-end hardware systems (mechanical, electrical, firmware) that work reliably at scale.'
+    title: 'Systems Engineering',
+    description: 'End-to-end hardware systems—mechanical, electrical, firmware—designed for reliability at scale.'
   }, {
     icon: Users,
-    title: 'Build & Scale Teams',
-    description: 'Building and scaling cross-functional teams from 0 to 1 and 1 to N. Hiring, culture, and execution.'
+    title: 'Team Leadership',
+    description: 'Cross-functional teams from 0 to 1 and 1 to N. Hiring, culture, and execution.'
   }, {
     icon: Zap,
-    title: 'Zero to Production',
-    description: 'Taking products from prototype to production. UL/FCC certification, manufacturing ramp, and market launch.'
+    title: 'Product Certification',
+    description: 'Prototype to production. UL/FCC certification, manufacturing ramp, and market launch.'
   }, {
     icon: TrendingUp,
-    title: 'Founder Experience',
-    description: 'Multiple founding engineer roles. I build the engineering functions necessary for product and business success.'
+    title: 'Startup Operations',
+    description: 'Founding engineer through Series C. Building engineering functions that support product and business growth.'
   }];
   return <section id="about" className="section-padding bg-stone-100 text-blue-900">
       <div className="container-custom">

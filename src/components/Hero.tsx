@@ -41,9 +41,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6 max-w-xl animate-fade-up animation-delay-200">
-              I build hardware companies from the ground up. Founding engineer through Series C, 
-              I've shipped certified products across autonomous delivery, consumer appliances, 
-              industrial robotics, and AI systems. From napkin sketch to factory floor.
+              Hardware engineering leader. I've taken products from concept to certified production across robotics, appliances, and autonomous systems.
             </p>
 
             {/* Location and Contact */}
