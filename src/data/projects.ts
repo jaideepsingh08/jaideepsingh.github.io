@@ -116,7 +116,7 @@ The venture was early to market for physical AI applications. The experience rei
     ],
     technologies: ['Tactile Sensing', 'Physical AI', 'Multimodal Systems', 'Robotics', 'Hardware Prototyping'],
     image: sensoryLabsImg,
-    gallery: [sensoryLabsImg, sensoryLabsImg2, sensoryLabsImg3, sensoryLabsImg4, sensoryLabsImg5],
+    gallery: [sensoryLabsImg, sensoryLabsImg2, sensoryLabsImg4, sensoryLabsImg5],
     year: '2024 - 2025',
     company: 'Sensory Labs',
     role: 'Founder & CTO'
