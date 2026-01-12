@@ -99,6 +99,7 @@ export const projects: Project[] = [
   // Professional Company Projects
   {
     id: 'sensory-labs',
+    hidden: true,
     title: 'Sensory Labs - Tactile Sensing for Physical AI',
     shortTitle: 'Sensory Labs Tactile Sensing',
     category: 'professional',
