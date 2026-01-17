@@ -20,6 +20,11 @@ import bumblebeeImg from '@/assets/projects/bumblebee.jpg';
 import bumblebeeImg2 from '@/assets/projects/bumblebee-2.jpg';
 import bumblebeeImg3 from '@/assets/projects/bumblebee-3.jpg';
 import bumblebeeImg4 from '@/assets/projects/bumblebee-4.jpg';
+import bumblebeeImg5 from '@/assets/projects/bumblebee-5.jpg';
+import bumblebeeImg6 from '@/assets/projects/bumblebee-6.jpg';
+import bumblebeeImg7 from '@/assets/projects/bumblebee-7.jpg';
+import bumblebeeImg8 from '@/assets/projects/bumblebee-8.jpg';
+import bumblebeeImg9 from '@/assets/projects/bumblebee-9.png';
 import amrImg from '@/assets/projects/amr.jpg';
 import amrImg2 from '@/assets/projects/amr-2.jpg';
 import amrImg3 from '@/assets/projects/amr-3.jpg';
@@ -232,7 +237,7 @@ The engineering challenge was making something as heavy and complex as furniture
     ],
     technologies: ['Robotics', 'Mechanical Design', 'Consumer Products', 'Safety Systems', 'Embedded Systems'],
     image: bumblebeeImg,
-    gallery: [bumblebeeImg, bumblebeeImg2, bumblebeeImg3, bumblebeeImg4],
+    gallery: [bumblebeeImg, bumblebeeImg2, bumblebeeImg3, bumblebeeImg4, bumblebeeImg5, bumblebeeImg6, bumblebeeImg7, bumblebeeImg8, bumblebeeImg9],
     year: '2019 - 2020',
     company: 'Bumblebee Spaces',
     role: 'Mechanical Engineer'
